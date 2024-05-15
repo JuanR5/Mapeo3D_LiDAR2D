@@ -1,0 +1,3 @@
+[console_scripts]
+subscriber_node = my_subscriber_pkg.subscriber_node:main
+teleop_node = my_subscriber_pkg.teleop_node:main

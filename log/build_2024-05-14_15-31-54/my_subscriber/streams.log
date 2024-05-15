@@ -1,0 +1,44 @@
+[0.140s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber
+[2.848s] -- The C compiler identification is GNU 11.4.0
+[4.124s] -- The CXX compiler identification is GNU 11.4.0
+[4.475s] -- Detecting C compiler ABI info
+[4.875s] -- Detecting C compiler ABI info - done
+[4.893s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.895s] -- Detecting C compile features
+[4.911s] -- Detecting C compile features - done
+[4.930s] -- Detecting CXX compiler ABI info
+[5.165s] -- Detecting CXX compiler ABI info - done
+[5.182s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.182s] -- Detecting CXX compile features
+[5.183s] -- Detecting CXX compile features - done
+[5.428s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.314s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.680s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.093s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.366s] -- Added test 'lint_cmake' to check CMake code style
+[7.378s] -- Added test 'xmllint' to check XML markup files
+[7.382s] -- Configuring done
+[7.390s] -- Generating done
+[7.392s] -- Build files have been written to: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber
+[7.402s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber
+[7.405s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber -- -j12 -l12
+[7.451s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber -- -j12 -l12
+[7.491s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber
+[7.498s] -- Install configuration: ""
+[7.498s] -- Execute custom install script
+[7.499s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/package_run_dependencies/my_subscriber
+[7.520s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/parent_prefix_path/my_subscriber
+[7.542s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.sh
+[7.552s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.dsv
+[7.563s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.sh
+[7.573s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.dsv
+[7.583s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.bash
+[7.594s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.sh
+[7.605s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.zsh
+[7.626s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.dsv
+[7.637s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.dsv
+[7.648s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/packages/my_subscriber
+[7.658s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig.cmake
+[7.668s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig-version.cmake
+[7.689s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.xml
+[7.703s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber

@@ -1,0 +1,15 @@
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/package_run_dependencies/my_subscriber
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/parent_prefix_path/my_subscriber
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.sh
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.dsv
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.sh
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.dsv
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.bash
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.sh
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.zsh
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.dsv
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.dsv
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/packages/my_subscriber
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig.cmake
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig-version.cmake
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.xml

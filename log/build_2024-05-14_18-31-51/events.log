@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000403] (my_subscriber) JobQueued: {'identifier': 'my_subscriber', 'dependencies': OrderedDict()}
+[0.000461] (my_subscriber_pkg) JobQueued: {'identifier': 'my_subscriber_pkg', 'dependencies': OrderedDict()}
+[0.000867] (my_subscriber) JobStarted: {'identifier': 'my_subscriber'}
+[0.099717] (-) TimerEvent: {}
+[0.129984] (my_subscriber_pkg) JobStarted: {'identifier': 'my_subscriber_pkg'}
+[0.163323] (my_subscriber) JobProgress: {'identifier': 'my_subscriber', 'progress': 'cmake'}
+[0.199860] (-) TimerEvent: {}
+[0.213544] (my_subscriber) JobProgress: {'identifier': 'my_subscriber', 'progress': 'build'}
+[0.214190] (my_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber', '--', '-j12', '-l12'], 'cwd': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'juan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/juan'), ('OLDPWD', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1834'), ('SYSTEMD_EXEC_PID', '11299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14382'), ('COLCON_PREFIX_PATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'juan'), ('JOURNAL_STREAM', '8:146225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/juan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juan-Lenovo-Legion-5-15ARH05:@/tmp/.ICE-unix/2054,unix/juan-Lenovo-Legion-5-15ARH05:/tmp/.ICE-unix/2054'), ('INVOCATION_ID', '867c46f61db94a9a8e43c4b8452d00e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:efe2f57f-4f7a-48df-96d6-67e0aff4ed85'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber'), ('OPENCR_PORT', '/dev/ttyACM0'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble'), ('OPENCR_MODEL', 'burger')]), 'shell': False}
+[0.300050] (-) TimerEvent: {}
+[0.400495] (-) TimerEvent: {}
+[0.500947] (-) TimerEvent: {}
+[0.601406] (-) TimerEvent: {}
+[0.626245] (my_subscriber) CommandEnded: {'returncode': 0}
+[0.656933] (my_subscriber) JobProgress: {'identifier': 'my_subscriber', 'progress': 'install'}
+[0.678419] (my_subscriber) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber'], 'cwd': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'juan'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/juan'), ('OLDPWD', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1834'), ('SYSTEMD_EXEC_PID', '11299'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '14382'), ('COLCON_PREFIX_PATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'juan'), ('JOURNAL_STREAM', '8:146225'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'juan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/juan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/juan-Lenovo-Legion-5-15ARH05:@/tmp/.ICE-unix/2054,unix/juan-Lenovo-Legion-5-15ARH05:/tmp/.ICE-unix/2054'), ('INVOCATION_ID', '867c46f61db94a9a8e43c4b8452d00e1'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '13'), ('AMENT_PREFIX_PATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:efe2f57f-4f7a-48df-96d6-67e0aff4ed85'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber'), ('OPENCR_PORT', '/dev/ttyACM0'), ('TURTLEBOT3_MODEL', 'burger'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LDS_MODEL', 'LDS-01'), ('PYTHONPATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble'), ('OPENCR_MODEL', 'burger')]), 'shell': False}
+[0.696935] (my_subscriber) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.701551] (-) TimerEvent: {}
+[0.715128] (my_subscriber) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.715673] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/package_run_dependencies/my_subscriber\n'}
+[0.716285] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/parent_prefix_path/my_subscriber\n'}
+[0.716663] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.sh\n'}
+[0.717070] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.dsv\n'}
+[0.717410] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.sh\n'}
+[0.717757] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.dsv\n'}
+[0.718101] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.bash\n'}
+[0.718493] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.sh\n'}
+[0.718950] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.zsh\n'}
+[0.719380] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.dsv\n'}
+[0.719550] (my_subscriber) StdoutLine: {'line': b'-- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.dsv\n'}
+[0.731850] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/packages/my_subscriber\n'}
+[0.732312] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig.cmake\n'}
+[0.732717] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig-version.cmake\n'}
+[0.733154] (my_subscriber) StdoutLine: {'line': b'-- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.xml\n'}
+[0.738076] (my_subscriber) CommandEnded: {'returncode': 0}
+[0.801854] (-) TimerEvent: {}
+[0.902282] (-) TimerEvent: {}
+[0.909903] (my_subscriber) JobEnded: {'identifier': 'my_subscriber', 'rc': 0}
+[1.002448] (-) TimerEvent: {}
+[1.103060] (-) TimerEvent: {}
+[1.203509] (-) TimerEvent: {}
+[1.304106] (-) TimerEvent: {}
+[1.404504] (-) TimerEvent: {}
+[1.504896] (-) TimerEvent: {}
+[1.605291] (-) TimerEvent: {}
+[1.705657] (-) TimerEvent: {}
+[1.805998] (-) TimerEvent: {}
+[1.906549] (-) TimerEvent: {}
+[2.006975] (-) TimerEvent: {}
+[2.107383] (-) TimerEvent: {}
+[2.228862] (-) TimerEvent: {}
+[2.329302] (-) TimerEvent: {}
+[2.429704] (-) TimerEvent: {}
+[2.530123] (-) TimerEvent: {}
+[2.630527] (-) TimerEvent: {}
+[2.730872] (-) TimerEvent: {}
+[2.831231] (-) TimerEvent: {}
+[2.931580] (-) TimerEvent: {}
+[3.032014] (-) TimerEvent: {}
+[3.132429] (-) TimerEvent: {}
+[3.232867] (-) TimerEvent: {}
+[3.333549] (-) TimerEvent: {}
+[3.434018] (-) TimerEvent: {}
+[3.534402] (-) TimerEvent: {}
+[3.634738] (-) TimerEvent: {}
+[3.735169] (-) TimerEvent: {}
+[3.835585] (-) TimerEvent: {}
+[3.936042] (-) TimerEvent: {}
+[4.036433] (-) TimerEvent: {}
+[4.136831] (-) TimerEvent: {}
+[4.237261] (-) TimerEvent: {}
+[4.337677] (-) TimerEvent: {}
+[4.438098] (-) TimerEvent: {}
+[4.538519] (-) TimerEvent: {}
+[4.638946] (-) TimerEvent: {}
+[4.739382] (-) TimerEvent: {}
+[4.840048] (-) TimerEvent: {}
+[4.940479] (-) TimerEvent: {}
+[5.040884] (-) TimerEvent: {}
+[5.141277] (-) TimerEvent: {}
+[5.241656] (-) TimerEvent: {}
+[5.342088] (-) TimerEvent: {}
+[5.442522] (-) TimerEvent: {}
+[5.542957] (-) TimerEvent: {}
+[5.643395] (-) TimerEvent: {}
+[5.743831] (-) TimerEvent: {}
+[5.844268] (-) TimerEvent: {}
+[5.944652] (-) TimerEvent: {}
+[6.045007] (-) TimerEvent: {}
+[6.145340] (-) TimerEvent: {}
+[6.245717] (-) TimerEvent: {}
+[6.346138] (-) TimerEvent: {}
+[6.446558] (-) TimerEvent: {}
+[6.546994] (-) TimerEvent: {}
+[6.647312] (-) TimerEvent: {}
+[6.747761] (-) TimerEvent: {}
+[6.848267] (-) TimerEvent: {}
+[6.948732] (-) TimerEvent: {}
+[7.049156] (-) TimerEvent: {}
+[7.149584] (-) TimerEvent: {}
+[7.250020] (-) TimerEvent: {}
+[7.350448] (-) TimerEvent: {}
+[7.450882] (-) TimerEvent: {}
+[7.551307] (-) TimerEvent: {}
+[7.651729] (-) TimerEvent: {}
+[7.752189] (-) TimerEvent: {}
+[7.852620] (-) TimerEvent: {}
+[7.953049] (-) TimerEvent: {}
+[8.053488] (-) TimerEvent: {}
+[8.153896] (-) TimerEvent: {}
+[8.254208] (-) TimerEvent: {}
+[8.354643] (-) TimerEvent: {}
+[8.455080] (-) TimerEvent: {}
+[8.555497] (-) TimerEvent: {}
+[8.655925] (-) TimerEvent: {}
+[8.756306] (-) TimerEvent: {}
+[8.856663] (-) TimerEvent: {}
+[8.957082] (-) TimerEvent: {}
+[9.057478] (-) TimerEvent: {}
+[9.157847] (-) TimerEvent: {}
+[9.258243] (-) TimerEvent: {}
+[9.358617] (-) TimerEvent: {}
+[9.458990] (-) TimerEvent: {}
+[9.559389] (-) TimerEvent: {}
+[9.659646] (-) TimerEvent: {}
+[9.759947] (-) TimerEvent: {}
+[9.860332] (-) TimerEvent: {}
+[9.960609] (-) TimerEvent: {}
+[10.060993] (-) TimerEvent: {}
+[10.161372] (-) TimerEvent: {}
+[10.262004] (-) TimerEvent: {}
+[10.362474] (-) TimerEvent: {}
+[10.408866] (my_subscriber_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build', '--no-deps', 'symlink_data'], 'cwd': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'juan', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/juan', 'OLDPWD': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1834', 'SYSTEMD_EXEC_PID': '11299', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '14382', 'COLCON_PREFIX_PATH': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'juan', 'JOURNAL_STREAM': '8:146225', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'juan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/home/juan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/juan-Lenovo-Legion-5-15ARH05:@/tmp/.ICE-unix/2054,unix/juan-Lenovo-Legion-5-15ARH05:/tmp/.ICE-unix/2054', 'INVOCATION_ID': '867c46f61db94a9a8e43c4b8452d00e1', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '13', 'AMENT_PREFIX_PATH': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:efe2f57f-4f7a-48df-96d6-67e0aff4ed85', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg', 'OPENCR_PORT': '/dev/ttyACM0', 'TURTLEBOT3_MODEL': 'burger', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'LDS_MODEL': 'LDS-01', 'PYTHONPATH': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber', 'OPENCR_MODEL': 'burger'}, 'shell': False}
+[10.462617] (-) TimerEvent: {}
+[10.563272] (-) TimerEvent: {}
+[10.663707] (-) TimerEvent: {}
+[10.743025] (my_subscriber_pkg) StdoutLine: {'line': b'running develop\n'}
+[10.763947] (-) TimerEvent: {}
+[10.786271] (my_subscriber_pkg) StderrLine: {'line': b'/home/juan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[10.786640] (my_subscriber_pkg) StderrLine: {'line': b'!!\n'}
+[10.786816] (my_subscriber_pkg) StderrLine: {'line': b'\n'}
+[10.786977] (my_subscriber_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[10.787136] (my_subscriber_pkg) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[10.787295] (my_subscriber_pkg) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[10.787453] (my_subscriber_pkg) StderrLine: {'line': b'        standards-based tools.\n'}
+[10.787611] (my_subscriber_pkg) StderrLine: {'line': b'\n'}
+[10.787768] (my_subscriber_pkg) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[10.787927] (my_subscriber_pkg) StderrLine: {'line': b'        ********************************************************************************\n'}
+[10.788129] (my_subscriber_pkg) StderrLine: {'line': b'\n'}
+[10.788283] (my_subscriber_pkg) StderrLine: {'line': b'!!\n'}
+[10.788439] (my_subscriber_pkg) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[10.864138] (-) TimerEvent: {}
+[10.964578] (-) TimerEvent: {}
+[11.055081] (my_subscriber_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[11.064696] (-) TimerEvent: {}
+[11.073232] (my_subscriber_pkg) StdoutLine: {'line': b'writing my_subscriber_pkg.egg-info/PKG-INFO\n'}
+[11.073635] (my_subscriber_pkg) StdoutLine: {'line': b'writing dependency_links to my_subscriber_pkg.egg-info/dependency_links.txt\n'}
+[11.073874] (my_subscriber_pkg) StdoutLine: {'line': b'writing entry points to my_subscriber_pkg.egg-info/entry_points.txt\n'}
+[11.074098] (my_subscriber_pkg) StdoutLine: {'line': b'writing requirements to my_subscriber_pkg.egg-info/requires.txt\n'}
+[11.074268] (my_subscriber_pkg) StdoutLine: {'line': b'writing top-level names to my_subscriber_pkg.egg-info/top_level.txt\n'}
+[11.120980] (my_subscriber_pkg) StdoutLine: {'line': b"reading manifest file 'my_subscriber_pkg.egg-info/SOURCES.txt'\n"}
+[11.154903] (my_subscriber_pkg) StdoutLine: {'line': b"writing manifest file 'my_subscriber_pkg.egg-info/SOURCES.txt'\n"}
+[11.164799] (-) TimerEvent: {}
+[11.173767] (my_subscriber_pkg) StdoutLine: {'line': b'running build_ext\n'}
+[11.187269] (my_subscriber_pkg) StdoutLine: {'line': b'Creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my-subscriber-pkg.egg-link (link to .)\n'}
+[11.188711] (my_subscriber_pkg) StdoutLine: {'line': b'Installing subscriber_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg\n'}
+[11.189001] (my_subscriber_pkg) StdoutLine: {'line': b'Installing teleop_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg\n'}
+[11.189346] (my_subscriber_pkg) StdoutLine: {'line': b'\n'}
+[11.189492] (my_subscriber_pkg) StdoutLine: {'line': b'Installed /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg\n'}
+[11.189620] (my_subscriber_pkg) StdoutLine: {'line': b'running symlink_data\n'}
+[11.228168] (my_subscriber_pkg) CommandEnded: {'returncode': 0}
+[11.243178] (my_subscriber_pkg) JobEnded: {'identifier': 'my_subscriber_pkg', 'rc': 0}
+[11.244491] (-) EventReactorShutdown: {}

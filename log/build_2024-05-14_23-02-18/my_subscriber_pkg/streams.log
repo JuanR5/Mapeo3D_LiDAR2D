@@ -1,0 +1,56 @@
+[11.280s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build
+[11.651s] running develop
+[11.652s] /home/juan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[11.652s] !!
+[11.652s] 
+[11.652s]         ********************************************************************************
+[11.652s]         Please avoid running ``setup.py`` and ``easy_install``.
+[11.652s]         Instead, use pypa/build, pypa/installer or other
+[11.652s]         standards-based tools.
+[11.653s] 
+[11.653s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[11.653s]         ********************************************************************************
+[11.653s] 
+[11.653s] !!
+[11.653s]   easy_install.initialize_options(self)
+[11.910s] Removing /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my-subscriber-pkg.egg-link (link to .)
+[11.948s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build
+[11.952s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber_pkg': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_subscriber_pkg build --build-base /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build install --record /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/install.log --single-version-externally-managed install_data --force
+[12.228s] running egg_info
+[12.247s] writing ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/PKG-INFO
+[12.247s] writing dependency_links to ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/dependency_links.txt
+[12.248s] writing entry points to ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/entry_points.txt
+[12.248s] writing requirements to ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/requires.txt
+[12.248s] writing top-level names to ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/top_level.txt
+[12.287s] reading manifest file '../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/SOURCES.txt'
+[12.288s] writing manifest file '../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/SOURCES.txt'
+[12.288s] running build
+[12.288s] running build_py
+[12.289s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build
+[12.289s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib
+[12.289s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg
+[12.289s] copying my_subscriber_pkg/teleop_node.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg
+[12.289s] copying my_subscriber_pkg/__init__.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg
+[12.289s] copying my_subscriber_pkg/test.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg
+[12.290s] copying my_subscriber_pkg/subscriber_node.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg
+[12.290s] running install
+[12.294s] running install_lib
+[12.312s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg
+[12.312s] copying /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg/teleop_node.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg
+[12.312s] copying /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg/__init__.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg
+[12.313s] copying /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg/test.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg
+[12.313s] copying /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build/lib/my_subscriber_pkg/subscriber_node.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg
+[12.313s] byte-compiling /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg/teleop_node.py to teleop_node.cpython-310.pyc
+[12.313s] byte-compiling /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg/__init__.py to __init__.cpython-310.pyc
+[12.314s] byte-compiling /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg/test.py to test.cpython-310.pyc
+[12.314s] byte-compiling /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg/subscriber_node.py to subscriber_node.cpython-310.pyc
+[12.314s] running install_data
+[12.314s] copying resource/my_subscriber_pkg -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/ament_index/resource_index/packages
+[12.314s] copying package.xml -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg
+[12.330s] running install_egg_info
+[12.350s] Copying ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my_subscriber_pkg-0.0.0-py3.10.egg-info
+[12.366s] running install_scripts
+[12.553s] Installing subscriber_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg
+[12.554s] Installing teleop_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg
+[12.554s] writing list of installed files to '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/install.log'
+[12.587s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber_pkg' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_subscriber_pkg build --build-base /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build install --record /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/install.log --single-version-externally-managed install_data --force
