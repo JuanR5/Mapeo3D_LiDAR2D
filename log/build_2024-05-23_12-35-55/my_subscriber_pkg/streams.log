@@ -1,0 +1,33 @@
+[2.898s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build --no-deps symlink_data
+[3.228s] running develop
+[3.262s] /home/juan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.262s] !!
+[3.262s] 
+[3.262s]         ********************************************************************************
+[3.262s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.262s]         Instead, use pypa/build, pypa/installer or other
+[3.262s]         standards-based tools.
+[3.262s] 
+[3.262s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.262s]         ********************************************************************************
+[3.263s] 
+[3.263s] !!
+[3.263s]   easy_install.initialize_options(self)
+[3.504s] running egg_info
+[3.523s] writing my_subscriber_pkg.egg-info/PKG-INFO
+[3.523s] writing dependency_links to my_subscriber_pkg.egg-info/dependency_links.txt
+[3.524s] writing entry points to my_subscriber_pkg.egg-info/entry_points.txt
+[3.524s] writing requirements to my_subscriber_pkg.egg-info/requires.txt
+[3.524s] writing top-level names to my_subscriber_pkg.egg-info/top_level.txt
+[3.573s] reading manifest file 'my_subscriber_pkg.egg-info/SOURCES.txt'
+[3.573s] writing manifest file 'my_subscriber_pkg.egg-info/SOURCES.txt'
+[3.593s] running build_ext
+[3.593s] Creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages/my-subscriber-pkg.egg-link (link to .)
+[3.593s] Installing my2_teleop_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg
+[3.594s] Installing my_teleop_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg
+[3.594s] Installing subscriber_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg
+[3.594s] Installing teleop_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/my_subscriber_pkg
+[3.594s] 
+[3.594s] Installed /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg
+[3.594s] running symlink_data
+[3.638s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build --no-deps symlink_data

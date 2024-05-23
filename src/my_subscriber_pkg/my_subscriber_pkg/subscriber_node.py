@@ -1,7 +1,8 @@
 import rclpy
 from rclpy.node import Node
+from std_msgs.msg import Float32
 from nav_msgs.msg import Odometry
-from sensor_msgs.msg import LaserScan
+from sensor_msgs.msg import LaserScan, JointState, PointCloud2
 from tf2_msgs.msg import TFMessage
 
 class MySubscriber(Node):
@@ -21,7 +22,7 @@ class MySubscriber(Node):
             LaserScan,
             'scan',
             self.scan_callback,
-            10)
+            100)
         
         # Subscription to TFMessage topic
         self.tf_subscription = self.create_subscription(
@@ -30,26 +31,81 @@ class MySubscriber(Node):
             self.tf_callback,
             10)
         
+        self.tf_static_subscription = self.create_subscription(
+            TFMessage,
+            'tf_static',
+            self.tf_static_callback,
+            10)
+        
+                # Subscription to Voltage topic
+        self.voltage_subscription = self.create_subscription(
+            Float32,
+            'Voltage',
+            self.voltage_callback,
+            10)
+
+        # Subscription to Joint States topic
+        self.joint_states_subscription = self.create_subscription(
+            JointState,
+            'joint_states',
+            self.joint_states_callback,
+            10)
+
+        # Subscription to Point Cloud topic
+        self.point_cloud_subscription = self.create_subscription(
+            PointCloud2,
+            'point_cloud',
+            self.point_cloud_callback,
+            10)
+        
         self.odom_subscription  # prevent unused variable warning
         self.scan_subscription  # prevent unused variable warning
         self.tf_subscription  # prevent unused variable warning
+        self.tf_static_subscription
+        self.voltage_subscription
+        self.joint_states_subscription
+        self.point_cloud_subscription 
 
     def odom_callback(self, msg):
         # Accessing specific fields of the Odometry message
         position = msg.pose.pose.position
         orientation = msg.pose.pose.orientation
-        self.get_logger().info(f'Odometry - Position: [{position.x}, {position.y}, {position.z}]')
-        self.get_logger().info(f'Odometry - Orientation: [{orientation.x}, {orientation.y}, {orientation.z}, {orientation.w}]')
+        # self.get_logger().info(f'Odometry - Position: [{position.x}, {position.y}, {position.z}]')
+        # self.get_logger().info(f'Odometry - Orientation: [{orientation.x}, {orientation.y}, {orientation.z}, {orientation.w}]')
 
     def scan_callback(self, msg):
         # Process LaserScan message
         # You can access the data from the LaserScan message here
+        # self.scan_ranges = msg.ranges
+        # leng = len(self.scan_ranges)
+        # print(leng)
         pass
 
     def tf_callback(self, msg):
         # Process TFMessage
-        for transform in msg.transforms:
-            self.get_logger().info(f'TF - Transform: {transform}')
+        # for transform in msg.transforms:
+        #     self.get_logger().info(f'TF - Transform: {transform}')
+        pass
+    
+    def tf_static_callback(self, msg):
+        # Process TF Static Message
+        # for transform in msg.transforms:
+        #     self.get_logger().info(f'TF Static - Transform: {transform}')
+        pass
+
+    def voltage_callback(self, msg):
+        # Process Voltage message
+        self.get_logger().info(f'Voltage: {msg.data}')
+
+    def joint_states_callback(self, msg):
+        # Process Joint States message
+        # self.get_logger().info(f'Joint States: {msg}')
+        pass
+
+    def point_cloud_callback(self, msg):
+        # Process Point Cloud message
+        #self.get_logger().info('Processing Point Cloud message')
+        pass
 
 def main(args=None):
     rclpy.init(args=args)

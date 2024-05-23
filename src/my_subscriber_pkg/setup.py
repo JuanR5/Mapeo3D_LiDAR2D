@@ -22,7 +22,8 @@ setup(
         'console_scripts': [
              'subscriber_node = my_subscriber_pkg.subscriber_node:main',  # Entry point for your subscriber node
              'teleop_node = my_subscriber_pkg.teleop_node:main',
-             
+             'my_teleop_node = my_subscriber_pkg.my_teleop_node:main',
+             'my2_teleop_node = my_subscriber_pkg.my2_teleop_node:main',
         ],
     },
 )

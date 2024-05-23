@@ -9,6 +9,8 @@ setup.py
 ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/top_level.txt
 ../../build/my_subscriber_pkg/my_subscriber_pkg.egg-info/zip-safe
 my_subscriber_pkg/__init__.py
+my_subscriber_pkg/my2_teleop_node.py
+my_subscriber_pkg/my_teleop_node.py
 my_subscriber_pkg/subscriber_node.py
 my_subscriber_pkg/teleop_node.py
 my_subscriber_pkg/test.py

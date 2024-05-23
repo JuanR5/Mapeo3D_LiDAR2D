@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="myAGV">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.00016891 0.00015022 -0.052166"
+        rpy="0 0 0" />
+      <mass
+        value="3.8542" />
+      <inertia
+        ixx="0.010657"
+        ixy="-9.9164E-05"
+        ixz="-0.00070838"
+        iyy="0.01586"
+        iyz="4.1548E-05"
+        izz="0.023269" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.75294 0.75294 0.75294 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="base_link">
+    <material>Gazebo/White</material>
+  </gazebo>
+  <link
+    name="base_lidar_Link">
+    <inertial>
+      <origin
+        xyz="0.00014848 -0.0046199 -2.168E-06"
+        rpy="0 0 0" />
+      <mass
+        value="0.043858" />
+      <inertia
+        ixx="3.2511E-05"
+        ixy="-1.5158E-07"
+        ixz="-8.4787E-21"
+        iyy="3.7222E-05"
+        iyz="5.562E-20"
+        izz="3.259E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_description/meshes/base_lidar_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://robot_description/meshes/base_lidar_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <gazebo reference="base_lidar_Link">
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <joint
+    name="base_lidar_joint"
+    type="revolute">
+    <origin
+      xyz="0.057702 -0.00012374 0.043"
+      rpy="1.5708 0 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="base_lidar_Link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-1.57"
+      upper="1.57"
+      effort="100"
+      velocity="100" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <gazebo>
+    <plugin name="joint_position_controller" filename="libgazebo_ros_joint_pose_controller.so">
+      <joint>joint_name</joint>
+      <topic>/desired_joint_position</topic>
+    </plugin>
+  </gazebo>
+
+</robot>
