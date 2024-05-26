@@ -1,0 +1,53 @@
+[1.337s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/build --no-deps symlink_data
+[1.692s] running develop
+[1.692s] /home/juan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[1.692s] !!
+[1.692s] 
+[1.692s]         ********************************************************************************
+[1.692s]         Please avoid running ``setup.py`` and ``easy_install``.
+[1.693s]         Instead, use pypa/build, pypa/installer or other
+[1.693s]         standards-based tools.
+[1.693s] 
+[1.693s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[1.693s]         ********************************************************************************
+[1.693s] 
+[1.693s] !!
+[1.693s]   easy_install.initialize_options(self)
+[1.972s] running egg_info
+[1.972s] creating robot_description.egg-info
+[1.992s] writing robot_description.egg-info/PKG-INFO
+[1.993s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[1.993s] writing entry points to robot_description.egg-info/entry_points.txt
+[1.993s] writing requirements to robot_description.egg-info/requires.txt
+[1.993s] writing top-level names to robot_description.egg-info/top_level.txt
+[1.993s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.046s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.048s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[2.072s] running build_ext
+[2.072s] Creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[2.073s] Installing move_joint script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/robot_description
+[2.074s] 
+[2.074s] Installed /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description
+[2.074s] running symlink_data
+[2.074s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index
+[2.074s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index/resource_index
+[2.074s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index/resource_index/packages
+[2.074s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/resource/robot_description -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index/resource_index/packages
+[2.074s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/package.xml -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description
+[2.075s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/urdf
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/urdf/Ensamblaje12.csv -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/urdf
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/urdf/myAGV.urdf -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/urdf
+[2.075s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/display.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/robot_state_publisher.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/gazebo.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/joint_group_position_controller.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+[2.075s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/meshes
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/meshes/base_link.STL -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/meshes
+[2.075s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/meshes/base_lidar_Link.STL -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/meshes
+[2.075s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/config
+[2.076s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/config/position_controller.yaml -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/config
+[2.076s] creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/scripts
+[2.076s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/scripts/__init__.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/scripts
+[2.076s] symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/scripts/move_joint.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/scripts
+[2.139s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/build --no-deps symlink_data

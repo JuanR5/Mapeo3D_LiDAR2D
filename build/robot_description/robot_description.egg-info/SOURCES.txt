@@ -1,8 +1,10 @@
 package.xml
 setup.cfg
 setup.py
+config/position_controller.yaml
 launch/display.launch.py
 launch/gazebo.launch.py
+launch/joint_group_position_controller.launch.py
 launch/robot_state_publisher.launch.py
 meshes/base_lidar_Link.STL
 meshes/base_link.STL
@@ -11,8 +13,11 @@ robot_description/__init__.py
 robot_description.egg-info/PKG-INFO
 robot_description.egg-info/SOURCES.txt
 robot_description.egg-info/dependency_links.txt
+robot_description.egg-info/entry_points.txt
 robot_description.egg-info/requires.txt
 robot_description.egg-info/top_level.txt
 robot_description.egg-info/zip-safe
+scripts/__init__.py
+scripts/move_joint.py
 urdf/Ensamblaje12.csv
 urdf/myAGV.urdf

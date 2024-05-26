@@ -17,7 +17,6 @@ class GoToGoal(Node):
         self.goal_x = float(input("Enter the goal x position: "))
         self.goal_y = float(input("Enter the goal y position: "))
         #self.goal_orientation = np.deg2rad(float(input("Enter the desired orientation at the goal (in Degrees): ")))
-        
         #self.start_orientation = np.deg2rad(float(input("Enter the starting orientation (in Degrees): ")))
 
         self.odom_sub = self.create_subscription(
@@ -45,20 +44,55 @@ class GoToGoal(Node):
         self.xi = 0
         self.yi = 0
 
+        self.odom_received = False 
         self.moving_to_goal = False
+        self.obstacle_detected = False
+        self.stop_robot()
+        
         self.timer = self.create_timer(0.1, self.move)
+        
 
     def odom_callback(self, msg):
         self.current_x = msg.pose.pose.position.x
         self.current_y = msg.pose.pose.position.y
         orientation_q = msg.pose.pose.orientation
         _, _, self.current_orientation = self.quaternion_to_euler(orientation_q)
+        self.odom_received = True
         # self.get_logger().info(f'Odometry - Position: [{self.current_x}, {self.current_y}, {np.rad2deg(self.current_orientation)}]')
 
     def scan_callback(self, msg):
         self.scan_ranges = msg.ranges
+        self.obstacle_detected = False
+        for i in range(450):
+            if 0 < self.scan_ranges[i] < 0.4:
+                self.obstacle_detected = True
+                
+                self.stop_robot()
+                
+                self.move_angle()
+                
+                self.move_to_goal()
+                
+                #print("ObstacleD")
+                
+                break
+        
 
     def move(self):
+        ## Check if the data is being recived correctly
+        if not self.odom_received:
+            self.stop_robot()
+            self.get_logger().info('Waiting for odometry data...')
+            return
+        if not self.scan_ranges:
+            self.stop_robot()
+            self.get_logger().info('Waiting for scan data...')
+            return
+        
+        if self.obstacle_detected:
+            self.stop_robot()
+            self.move_angle()
+        
         if not self.moving_to_goal:
             self.move_angle()
         else:
@@ -70,30 +104,47 @@ class GoToGoal(Node):
 
     def move_angle(self):
 
-        if not self.scan_ranges:
-            self.get_logger().info('Waiting for scan data...')
-            return
-
         # Check for obstacles in front left and front right
         obstacle_detected = False
         theta = 0
-        for i in range(100):
-            if 0 < self.scan_ranges[i] < 0.5:
+        self.xi = 0  # Reset xi
+        self.yi = 0  # Reset yi
+        angular_velocity = 0.0
+        
+        for i in range(115):
+            if 0 < self.scan_ranges[i] < 0.4:
                 obstacle_detected = True
-                self.xi += self.scan_ranges[i] * np.cos((2*np.pi*i)/490)
-                self.yi += self.scan_ranges[i] * np.sin((2*np.pi*i)/490)
+                self.xi += self.scan_ranges[i] * np.cos((2*np.pi*i)/450)
+                self.yi += self.scan_ranges[i] * np.sin((2*np.pi*i)/450)
                 theta = np.arctan2(self.yi,self.xi) - np.pi/2
-                break
+                print("leftObs: ", theta)
 
-        for i in range(300, 400):
-            if 0 < self.scan_ranges[i] < 0.5:
+        for i in range(345, 450):
+            if 0 < self.scan_ranges[i] < 0.4:
                 obstacle_detected = True
                 if np.abs(self.scan_ranges[i]) < np.abs(self.xi) and np.abs(self.scan_ranges[i]) < np.abs(self.yi):
-                    theta = np.arctan2(self.scan_ranges[i] * np.sin((2*np.pi*i)/490), self.scan_ranges[i] * np.cos((2*np.pi*i)/490)) - np.pi/2
+                    theta = np.arctan2(self.scan_ranges[i] * np.sin((2*np.pi*i)/450), 
+                                       self.scan_ranges[i] * np.cos((2*np.pi*i)/450)) - np.pi/2
+                print("RightObs: ", theta)
 
         if obstacle_detected:
-            angular_velocity = np.sign(theta) * 0.3  # Rotate 45 degrees away from the obstacle
             
+            if -1.58 < theta < 0:
+                target_angle = theta - np.pi / 4
+            else:    
+                target_angle = theta + np.pi / 4  # Rotate away from the obstacle
+            
+            angle_error = target_angle - self.current_orientation
+            angle_error = np.arctan2(np.sin(angle_error), np.cos(angle_error))
+            #linear_velocity_x = 0.08
+
+            if abs(angle_error) > 0.1:
+                angular_velocity = 0.3 if angle_error > 0 else -0.3
+            elif abs(angle_error) > 0.06:
+                angular_velocity = 0.08 if angle_error > 0 else -0.08
+            else:
+                angular_velocity = 0.0
+                self.moving_to_goal = True
 
         else:
             angle_to_goal = np.arctan2(self.goal_y - self.current_y, self.goal_x - self.current_x)
@@ -107,18 +158,22 @@ class GoToGoal(Node):
             else:
                 angular_velocity = 0.0
                 self.moving_to_goal = True
+            
+            #linear_velocity_x = 0.0
 
         cmd_vel_msg = Twist()
+        #cmd_vel_msg.linear.x = linear_velocity_x
         cmd_vel_msg.angular.z = angular_velocity
         self.cmd_vel_pub.publish(cmd_vel_msg)
 
     def move_to_goal(self):
+                
         distance_to_goal = np.sqrt((self.goal_x - self.current_x)**2 + (self.goal_y - self.current_y)**2)
         print("distance: ", distance_to_goal)
 
         if distance_to_goal > 0.15:
             linear_velocity_x = 0.1
-        elif distance_to_goal > 0.05:
+        elif distance_to_goal > 0.04:
             linear_velocity_x = 0.06
         else:
             self.stop_robot()
@@ -150,7 +205,7 @@ class GoToGoal(Node):
         # Return True periodically to recheck angle adjustment
         current_time = self.get_clock().now().nanoseconds
         if hasattr(self, 'last_check_time'):
-            if current_time - self.last_check_time > 2e9:  # 2 seconds
+            if current_time - self.last_check_time > 3e9:  # 2 seconds
                 self.last_check_time = current_time
                 return True
         else:

@@ -4,6 +4,7 @@ from std_msgs.msg import Float32
 from nav_msgs.msg import Odometry
 from sensor_msgs.msg import LaserScan, JointState, PointCloud2
 from tf2_msgs.msg import TFMessage
+import numpy as np
 
 class MySubscriber(Node):
 
@@ -70,16 +71,17 @@ class MySubscriber(Node):
         # Accessing specific fields of the Odometry message
         position = msg.pose.pose.position
         orientation = msg.pose.pose.orientation
-        # self.get_logger().info(f'Odometry - Position: [{position.x}, {position.y}, {position.z}]')
-        # self.get_logger().info(f'Odometry - Orientation: [{orientation.x}, {orientation.y}, {orientation.z}, {orientation.w}]')
+        #self.get_logger().info(f'Odometry - Position: [{position.x}, {position.y}]')
+        #self.get_logger().info(f'Odometry - Orientation: [{np.rad2deg(orientation.z)}]')
 
     def scan_callback(self, msg):
         # Process LaserScan message
         # You can access the data from the LaserScan message here
-        # self.scan_ranges = msg.ranges
-        # leng = len(self.scan_ranges)
-        # print(leng)
-        pass
+        self.scan_ranges = msg.ranges
+        leng = len(self.scan_ranges)
+        print("ScanLength: ", leng)
+        #print("Scan: ", self.scan_ranges)
+        #pass
 
     def tf_callback(self, msg):
         # Process TFMessage
