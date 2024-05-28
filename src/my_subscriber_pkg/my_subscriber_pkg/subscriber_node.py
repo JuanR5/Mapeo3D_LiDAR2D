@@ -71,7 +71,7 @@ class MySubscriber(Node):
         # Accessing specific fields of the Odometry message
         position = msg.pose.pose.position
         orientation = msg.pose.pose.orientation
-        #self.get_logger().info(f'Odometry - Position: [{position.x}, {position.y}]')
+        self.get_logger().info(f'Odometry - Position: [{position.x}, {position.y}]')
         #self.get_logger().info(f'Odometry - Orientation: [{np.rad2deg(orientation.z)}]')
 
     def scan_callback(self, msg):
@@ -79,7 +79,8 @@ class MySubscriber(Node):
         # You can access the data from the LaserScan message here
         self.scan_ranges = msg.ranges
         leng = len(self.scan_ranges)
-        print("ScanLength: ", leng)
+        #print("ScanLength: ", leng)
+        
         #print("Scan: ", self.scan_ranges)
         #pass
 

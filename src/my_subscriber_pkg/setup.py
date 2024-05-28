@@ -24,6 +24,7 @@ setup(
              'teleop_node = my_subscriber_pkg.teleop_node:main',
              'my_teleop_node = my_subscriber_pkg.my_teleop_node:main',
              'my2_teleop_node = my_subscriber_pkg.my2_teleop_node:main',
+             'gui_node = my_subscriber_pkg.gui_node:main',
         ],
     },
 )
