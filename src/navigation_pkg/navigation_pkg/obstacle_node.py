@@ -75,11 +75,11 @@ class GoToGoal(Node):
         ## Check if the data is being recived correctly
         if not self.odom_received:
             self.stop_robot()
-            self.get_logger().info('Waiting for odometry data...')
+            self.get_logger().info('Waiting for Odom data...')
             return
         if not self.scan_ranges:
             self.stop_robot()
-            self.get_logger().info('Waiting for scan data...')
+            self.get_logger().info('Waiting for scan...')
             return
         
         if self.obstacle_detected:

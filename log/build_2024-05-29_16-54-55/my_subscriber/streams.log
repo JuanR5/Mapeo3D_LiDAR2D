@@ -1,0 +1,21 @@
+[0.229s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber -- -j12 -l12
+[1.015s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber -- -j12 -l12
+[1.060s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber
+[1.084s] -- Install configuration: ""
+[1.136s] -- Execute custom install script
+[1.137s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/package_run_dependencies/my_subscriber
+[1.137s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/parent_prefix_path/my_subscriber
+[1.138s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.sh
+[1.138s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/ament_prefix_path.dsv
+[1.138s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.sh
+[1.138s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/environment/path.dsv
+[1.138s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.bash
+[1.139s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.sh
+[1.139s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.zsh
+[1.139s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/local_setup.dsv
+[1.139s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.dsv
+[1.159s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/ament_index/resource_index/packages/my_subscriber
+[1.159s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig.cmake
+[1.159s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/cmake/my_subscriberConfig-version.cmake
+[1.159s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.xml
+[1.163s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber

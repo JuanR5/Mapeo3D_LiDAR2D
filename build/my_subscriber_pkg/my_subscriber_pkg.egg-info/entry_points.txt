@@ -1,4 +1,5 @@
 [console_scripts]
+gui_node = my_subscriber_pkg.gui_node:main
 my2_teleop_node = my_subscriber_pkg.my2_teleop_node:main
 my_teleop_node = my_subscriber_pkg.my_teleop_node:main
 subscriber_node = my_subscriber_pkg.subscriber_node:main

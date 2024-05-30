@@ -23,6 +23,7 @@ setup(
             'nav1 = navigation_pkg.nav1:main',
             'nav2_node = navigation_pkg.nav2_node:main',
             'obstacle_node = navigation_pkg.obstacle_node:main',
+            'navigation_node = navigation_pkg.navigation_node:main',
         ],
     },
 )

@@ -1,0 +1,38 @@
+running develop
+running egg_info
+creating robot_description.egg-info
+writing robot_description.egg-info/PKG-INFO
+writing dependency_links to robot_description.egg-info/dependency_links.txt
+writing entry points to robot_description.egg-info/entry_points.txt
+writing requirements to robot_description.egg-info/requires.txt
+writing top-level names to robot_description.egg-info/top_level.txt
+writing manifest file 'robot_description.egg-info/SOURCES.txt'
+reading manifest file 'robot_description.egg-info/SOURCES.txt'
+writing manifest file 'robot_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+Installing move_joint script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/robot_description
+
+Installed /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description
+running symlink_data
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index/resource_index
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index/resource_index/packages
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/resource/robot_description -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/ament_index/resource_index/packages
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/package.xml -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/urdf
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/urdf/Ensamblaje12.csv -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/urdf
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/urdf/myAGV.urdf -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/urdf
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/display.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/robot_state_publisher.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/gazebo.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/launch/joint_group_position_controller.launch.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/launch
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/meshes
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/meshes/base_link.STL -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/meshes
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/meshes/base_lidar_Link.STL -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/meshes
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/config
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/config/position_controller.yaml -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/config
+creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/scripts
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/scripts/__init__.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/scripts
+symbolically linking /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/scripts/move_joint.py -> /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/scripts

@@ -2,6 +2,7 @@ package.xml
 setup.cfg
 setup.py
 my_subscriber_pkg/__init__.py
+my_subscriber_pkg/gui_node.py
 my_subscriber_pkg/my2_teleop_node.py
 my_subscriber_pkg/my_teleop_node.py
 my_subscriber_pkg/subscriber_node.py
