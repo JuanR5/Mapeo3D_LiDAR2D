@@ -1,0 +1,49 @@
+[0.056s] Invoking command in '/home/nicolas/RAS/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_reconstruction -- -j2 -l2
+[0.253s] [ 50%] Built target point_cloud2_converter
+[0.283s] [100%] Built target point_cloud2_assembler
+[0.312s] [100%] Built target ament_cmake_python_copy_scripts
+[1.940s] running egg_info
+[1.943s] writing scripts.egg-info/PKG-INFO
+[1.944s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[1.946s] writing top-level names to scripts.egg-info/top_level.txt
+[1.953s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[1.955s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[2.051s] [100%] Built target ament_cmake_python_build_scripts_egg
+[2.100s] Invoked command in '/home/nicolas/RAS/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_reconstruction -- -j2 -l2
+[2.296s] Invoking command in '/home/nicolas/RAS/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_reconstruction
+[2.338s] -- Install configuration: ""
+[2.340s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_assembler
+[2.342s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_converter
+[2.343s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/pythonpath.sh
+[2.344s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/pythonpath.dsv
+[2.344s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[2.345s] -- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.347s] -- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.348s] -- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[2.349s] -- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[2.351s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts
+[2.351s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts/__init__.py
+[2.494s] Listing '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts'...
+[2.522s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/config
+[2.523s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/config/reconstruction_in_gazebo.rviz
+[2.528s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/config/reconstruction.rviz
+[2.528s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/launch
+[2.529s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/launch/reconstruction_in_gazebo.launch.py
+[2.529s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/launch/reconstruction_in_bringup.launch.py
+[2.529s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/pcd
+[2.529s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/ament_index/resource_index/package_run_dependencies/vonns2_reconstruction
+[2.535s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/ament_index/resource_index/parent_prefix_path/vonns2_reconstruction
+[2.536s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/ament_prefix_path.sh
+[2.536s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/ament_prefix_path.dsv
+[2.536s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/path.sh
+[2.537s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/path.dsv
+[2.537s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.bash
+[2.538s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.sh
+[2.538s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.zsh
+[2.538s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.dsv
+[2.538s] -- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.dsv
+[2.554s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/ament_index/resource_index/packages/vonns2_reconstruction
+[2.554s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/cmake/vonns2_reconstructionConfig.cmake
+[2.555s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/cmake/vonns2_reconstructionConfig-version.cmake
+[2.555s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.xml
+[2.555s] Invoked command in '/home/nicolas/RAS/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_reconstruction

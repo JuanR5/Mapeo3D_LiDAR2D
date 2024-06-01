@@ -1,0 +1,1 @@
+En esta carpeta se encuentran las subcarpetas de los repositorios oficiales del robot, de la GUI interna de este, y del repositorio para el control del Lidar Hokuyo.

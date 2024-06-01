@@ -1,0 +1,59 @@
+[0.141s] Invoking command in '/home/nicolas/RAS/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_gazebo -- -j2 -l2
+[0.444s] Built target ament_cmake_python_copy_scripts
+[1.441s] running egg_info
+[1.447s] writing scripts.egg-info/PKG-INFO
+[1.448s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[1.448s] writing top-level names to scripts.egg-info/top_level.txt
+[1.458s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[1.461s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[1.568s] Built target ament_cmake_python_build_scripts_egg
+[1.643s] Invoked command in '/home/nicolas/RAS/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_gazebo -- -j2 -l2
+[1.778s] Invoking command in '/home/nicolas/RAS/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_gazebo
+[1.815s] -- Install configuration: ""
+[1.816s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.sh
+[1.816s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.dsv
+[1.817s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[1.817s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.818s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.819s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[1.821s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[1.822s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts
+[1.822s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/joint_group_position_publisher.py
+[1.822s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/__init__.py
+[1.953s] Listing '/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts'...
+[1.972s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/lib/vonns2_gazebo/joint_group_position_publisher.py
+[1.974s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config
+[1.975s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config/visualization.rviz
+[1.975s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config/joint_group_position_controller.yaml
+[1.976s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description
+[1.976s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2.urdf.xacro
+[1.977s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2_core.xacro
+[1.977s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/lidar.xacro
+[1.980s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/ros2_control.xacro
+[1.981s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch
+[1.982s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/robot_state_publisher.launch.py
+[1.982s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/joint_group_position_controller.launch.py
+[1.983s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/gazebo.launch.py
+[2.001s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/visualization.launch.py
+[2.002s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes
+[2.002s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/servo.STL
+[2.003s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/laser.STL
+[2.003s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/base_footprint.STL
+[2.003s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds
+[2.003s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds/cylinder.sdf
+[2.003s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/package_run_dependencies/vonns2_gazebo
+[2.004s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/parent_prefix_path/vonns2_gazebo
+[2.007s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.sh
+[2.008s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.dsv
+[2.008s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.sh
+[2.008s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.dsv
+[2.008s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.bash
+[2.009s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.sh
+[2.009s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.zsh
+[2.009s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.dsv
+[2.015s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv
+[2.016s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/packages/vonns2_gazebo
+[2.016s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig.cmake
+[2.016s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig-version.cmake
+[2.017s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.xml
+[2.017s] Invoked command in '/home/nicolas/RAS/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_gazebo

@@ -1,0 +1,2 @@
+my_subscriber_pkg
+-DCATKIN_DEVEL_PREFIX=/home/Docker_folder/medium_ws/devel -DCMAKE_INSTALL_PREFIX=/home/Docker_folder/medium_ws/install -G Unix Makefiles

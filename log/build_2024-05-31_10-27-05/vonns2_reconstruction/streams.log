@@ -1,0 +1,49 @@
+[0.717s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction -- -j12 -l12
+[0.772s] [35m[1mConsolidate compiler generated dependencies of target point_cloud2_converter[0m
+[0.773s] [35m[1mConsolidate compiler generated dependencies of target point_cloud2_assembler[0m
+[0.795s] [  0%] Built target ament_cmake_python_symlink_scripts
+[0.806s] [ 25%] [32mBuilding CXX object CMakeFiles/point_cloud2_converter.dir/src/point_cloud2_converter.cpp.o[0m
+[0.876s] [ 75%] Built target point_cloud2_assembler
+[1.090s] running egg_info
+[1.125s] writing scripts.egg-info/PKG-INFO
+[1.125s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[1.126s] writing top-level names to scripts.egg-info/top_level.txt
+[1.223s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[1.224s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[1.274s] [ 75%] Built target ament_cmake_python_build_scripts_egg
+[10.760s] [100%] [32m[1mLinking CXX executable point_cloud2_converter[0m
+[11.568s] [100%] Built target point_cloud2_converter
+[11.617s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction -- -j12 -l12
+[11.656s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction
+[11.673s] -- Install configuration: ""
+[11.674s] -- Execute custom install script
+[11.674s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_assembler
+[11.674s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_converter
+[11.674s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/pythonpath.sh
+[11.675s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/pythonpath.dsv
+[11.675s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[11.675s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[11.675s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[11.675s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[11.676s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts/__init__.py
+[11.676s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/config/reconstruction.rviz
+[11.676s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/config/reconstruction_in_gazebo.rviz
+[11.676s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/launch/reconstruction_in_bringup.launch.py
+[11.677s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/launch/reconstruction_in_gazebo.launch.py
+[11.677s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/ament_index/resource_index/package_run_dependencies/vonns2_reconstruction
+[11.677s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/ament_index/resource_index/parent_prefix_path/vonns2_reconstruction
+[11.677s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/ament_prefix_path.sh
+[11.678s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/ament_prefix_path.dsv
+[11.678s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/path.sh
+[11.678s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/path.dsv
+[11.678s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.bash
+[11.678s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.sh
+[11.679s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.zsh
+[11.679s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.dsv
+[11.679s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.dsv
+[11.690s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/ament_index/resource_index/packages/vonns2_reconstruction
+[11.691s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/cmake/vonns2_reconstructionConfig.cmake
+[11.691s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/cmake/vonns2_reconstructionConfig-version.cmake
+[11.691s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.xml
+[11.724s] Listing '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts'...
+[11.730s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction

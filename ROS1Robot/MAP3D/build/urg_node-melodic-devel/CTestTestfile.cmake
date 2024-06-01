@@ -1,0 +1,10 @@
+# CMake generated Testfile for 
+# Source directory: /home/er/MAP3D/src/urg_node-melodic-devel
+# Build directory: /home/er/MAP3D/build/urg_node-melodic-devel
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_urg_node_roslint_package "/home/er/MAP3D/build/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/er/MAP3D/build/test_results/urg_node/roslint-urg_node.xml" "--working-dir" "/home/er/MAP3D/build/urg_node-melodic-devel" "--return-code" "/opt/ros/noetic/share/roslint/cmake/../../../lib/roslint/test_wrapper /home/er/MAP3D/build/test_results/urg_node/roslint-urg_node.xml make roslint_urg_node")
+set_tests_properties(_ctest_urg_node_roslint_package PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/roslint/cmake/roslint-extras.cmake;67;catkin_run_tests_target;/home/er/MAP3D/src/urg_node-melodic-devel/CMakeLists.txt;90;roslint_add_test;/home/er/MAP3D/src/urg_node-melodic-devel/CMakeLists.txt;0;")
+add_test(_ctest_urg_node_roslaunch-check_launch_urg_lidar.launch "/home/er/MAP3D/build/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/home/er/MAP3D/build/test_results/urg_node/roslaunch-check_launch_urg_lidar.launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /home/er/MAP3D/build/test_results/urg_node" "/opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/home/er/MAP3D/build/test_results/urg_node/roslaunch-check_launch_urg_lidar.launch.xml\" \"/home/er/MAP3D/src/urg_node-melodic-devel/launch/urg_lidar.launch\" ")
+set_tests_properties(_ctest_urg_node_roslaunch-check_launch_urg_lidar.launch PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/roslaunch/cmake/roslaunch-extras.cmake;66;catkin_run_tests_target;/home/er/MAP3D/src/urg_node-melodic-devel/CMakeLists.txt;93;roslaunch_add_file_check;/home/er/MAP3D/src/urg_node-melodic-devel/CMakeLists.txt;0;")

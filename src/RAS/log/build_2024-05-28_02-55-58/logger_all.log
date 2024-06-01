@@ -1,0 +1,297 @@
+[0.853s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.853s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=2, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x707424b04550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x707424b04040>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x707424b04040>>)
+[2.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.071s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.072s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.073s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/nicolas/RAS'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.153s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.156s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.157s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.159s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.160s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extensions ['ignore', 'ignore_ament_install']
+[2.162s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'ignore'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'ignore_ament_install'
+[2.163s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extensions ['colcon_pkg']
+[2.164s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'colcon_pkg'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extensions ['colcon_meta']
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'colcon_meta'
+[2.173s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extensions ['ros']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'ros'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extensions ['cmake', 'python']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'cmake'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'python'
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extensions ['python_setup_py']
+[2.174s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2024_04_26-01_58_00) by extension 'python_setup_py'
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.175s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.176s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.177s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extensions ['ignore', 'ignore_ament_install']
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'ignore'
+[2.178s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'ignore_ament_install'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extensions ['colcon_pkg']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'colcon_pkg'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extensions ['colcon_meta']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'colcon_meta'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extensions ['ros']
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'ros'
+[2.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extensions ['cmake', 'python']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'cmake'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'python'
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extensions ['python_setup_py']
+[2.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main) by extension 'python_setup_py'
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.184s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extension 'ignore'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extension 'ignore_ament_install'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extensions ['colcon_pkg']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extension 'colcon_pkg'
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extensions ['colcon_meta']
+[2.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extension 'colcon_meta'
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extensions ['ros']
+[2.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_bringup) by extension 'ros'
+[2.212s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vonns2-main/vonns2_bringup' with type 'ros.ament_cmake' and name 'vonns2_bringup'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extension 'ignore'
+[2.224s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extension 'ignore_ament_install'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extensions ['colcon_pkg']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extension 'colcon_pkg'
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extensions ['colcon_meta']
+[2.225s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extension 'colcon_meta'
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extensions ['ros']
+[2.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_gazebo) by extension 'ros'
+[2.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vonns2-main/vonns2_gazebo' with type 'ros.ament_cmake' and name 'vonns2_gazebo'
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extensions ['ignore', 'ignore_ament_install']
+[2.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extension 'ignore'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extension 'ignore_ament_install'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extensions ['colcon_pkg']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extension 'colcon_pkg'
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extensions ['colcon_meta']
+[2.231s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extension 'colcon_meta'
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extensions ['ros']
+[2.232s] Level 1:colcon.colcon_core.package_identification:_identify(src/vonns2-main/vonns2_reconstruction) by extension 'ros'
+[2.234s] DEBUG:colcon.colcon_core.package_identification:Package 'src/vonns2-main/vonns2_reconstruction' with type 'ros.ament_cmake' and name 'vonns2_reconstruction'
+[2.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.392s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.413s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/nicolas/RAS/install
+[2.430s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 382 installed packages in /opt/ros/humble
+[2.516s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_args' from command line to 'None'
+[3.058s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_target' from command line to 'None'
+[3.059s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.059s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[3.059s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[3.059s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[3.060s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[3.060s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[3.060s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.060s] DEBUG:colcon.colcon_core.verb:Building package 'vonns2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicolas/RAS/build/vonns2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicolas/RAS/install/vonns2_bringup', 'merge_install': False, 'path': '/home/nicolas/RAS/src/vonns2-main/vonns2_bringup', 'symlink_install': False, 'test_result_base': None}
+[3.064s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_args' from command line to 'None'
+[3.064s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_target' from command line to 'None'
+[3.064s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[3.065s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[3.066s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.066s] DEBUG:colcon.colcon_core.verb:Building package 'vonns2_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicolas/RAS/build/vonns2_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicolas/RAS/install/vonns2_gazebo', 'merge_install': False, 'path': '/home/nicolas/RAS/src/vonns2-main/vonns2_gazebo', 'symlink_install': False, 'test_result_base': None}
+[3.070s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_args' from command line to 'None'
+[3.070s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_target' from command line to 'None'
+[3.070s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.071s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_clean_cache' from command line to 'False'
+[3.071s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_clean_first' from command line to 'False'
+[3.071s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_force_configure' from command line to 'False'
+[3.071s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'ament_cmake_args' from command line to 'None'
+[3.072s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'catkin_cmake_args' from command line to 'None'
+[3.072s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.072s] DEBUG:colcon.colcon_core.verb:Building package 'vonns2_reconstruction' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/nicolas/RAS/build/vonns2_reconstruction', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/nicolas/RAS/install/vonns2_reconstruction', 'merge_install': False, 'path': '/home/nicolas/RAS/src/vonns2-main/vonns2_reconstruction', 'symlink_install': False, 'test_result_base': None}
+[3.073s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.083s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.086s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicolas/RAS/src/vonns2-main/vonns2_bringup' with build type 'ament_cmake'
+[3.086s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicolas/RAS/src/vonns2-main/vonns2_bringup'
+[3.094s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.096s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.096s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.128s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicolas/RAS/src/vonns2-main/vonns2_gazebo' with build type 'ament_cmake'
+[3.129s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicolas/RAS/src/vonns2-main/vonns2_gazebo'
+[3.130s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.131s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicolas/RAS/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_bringup -- -j2 -l2
+[3.320s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicolas/RAS/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_gazebo -- -j2 -l2
+[4.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicolas/RAS/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_gazebo -- -j2 -l2
+[4.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicolas/RAS/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_gazebo
+[4.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicolas/RAS/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_bringup -- -j2 -l2
+[4.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicolas/RAS/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_bringup
+[4.643s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_gazebo)
+[4.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicolas/RAS/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_gazebo
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo' for CMake module files
+[4.652s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo' for CMake config files
+[4.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_gazebo', 'cmake_prefix_path')
+[4.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.ps1'
+[4.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.dsv'
+[4.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.sh'
+[4.658s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/lib'
+[4.658s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/bin'
+[4.658s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/lib/pkgconfig/vonns2_gazebo.pc'
+[4.658s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/lib/python3.10/site-packages'
+[4.659s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/bin'
+[4.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.ps1'
+[4.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv'
+[4.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.sh'
+[4.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.bash'
+[4.680s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.zsh'
+[4.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicolas/RAS/install/vonns2_gazebo/share/colcon-core/packages/vonns2_gazebo)
+[4.750s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_bringup)
+[4.751s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup' for CMake module files
+[4.753s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup' for CMake config files
+[4.759s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicolas/RAS/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_bringup
+[4.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_bringup', 'cmake_prefix_path')
+[4.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.ps1'
+[4.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.dsv'
+[4.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.sh'
+[4.776s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/lib'
+[4.776s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/bin'
+[4.777s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/lib/pkgconfig/vonns2_bringup.pc'
+[4.778s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/lib/python3.10/site-packages'
+[4.779s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/bin'
+[4.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.ps1'
+[4.783s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.dsv'
+[4.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.sh'
+[4.788s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.bash'
+[4.792s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.zsh'
+[4.795s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicolas/RAS/install/vonns2_bringup/share/colcon-core/packages/vonns2_bringup)
+[4.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_gazebo)
+[4.811s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo' for CMake module files
+[4.813s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo' for CMake config files
+[4.814s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_gazebo', 'cmake_prefix_path')
+[4.815s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.ps1'
+[4.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.dsv'
+[4.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.sh'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/lib'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/bin'
+[4.821s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/lib/pkgconfig/vonns2_gazebo.pc'
+[4.822s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/lib/python3.10/site-packages'
+[4.823s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_gazebo/bin'
+[4.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.ps1'
+[4.827s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv'
+[4.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.sh'
+[4.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.bash'
+[4.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.zsh'
+[4.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicolas/RAS/install/vonns2_gazebo/share/colcon-core/packages/vonns2_gazebo)
+[4.843s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/nicolas/RAS/src/vonns2-main/vonns2_reconstruction' with build type 'ament_cmake'
+[4.845s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/nicolas/RAS/src/vonns2-main/vonns2_reconstruction'
+[4.845s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.846s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicolas/RAS/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_reconstruction -- -j2 -l2
+[4.944s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_bringup)
+[4.945s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup' for CMake module files
+[4.947s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup' for CMake config files
+[4.948s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_bringup', 'cmake_prefix_path')
+[4.948s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.ps1'
+[4.950s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.dsv'
+[4.952s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.sh'
+[4.954s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/lib'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/bin'
+[4.955s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/lib/pkgconfig/vonns2_bringup.pc'
+[4.964s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/lib/python3.10/site-packages'
+[4.965s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_bringup/bin'
+[4.966s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.ps1'
+[4.970s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.dsv'
+[4.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.sh'
+[4.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.bash'
+[4.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.zsh'
+[4.991s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicolas/RAS/install/vonns2_bringup/share/colcon-core/packages/vonns2_bringup)
+[7.523s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicolas/RAS/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_reconstruction -- -j2 -l2
+[7.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/nicolas/RAS/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_reconstruction
+[8.272s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_reconstruction)
+[8.276s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction' for CMake module files
+[8.281s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction' for CMake config files
+[8.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_reconstruction', 'cmake_prefix_path')
+[8.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.ps1'
+[8.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/nicolas/RAS/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_reconstruction
+[8.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.dsv'
+[8.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.sh'
+[8.305s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/lib'
+[8.306s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/bin'
+[8.308s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/lib/pkgconfig/vonns2_reconstruction.pc'
+[8.310s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/lib/python3.10/site-packages'
+[8.312s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/bin'
+[8.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.ps1'
+[8.320s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.dsv'
+[8.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.sh'
+[8.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.bash'
+[8.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.zsh'
+[8.344s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicolas/RAS/install/vonns2_reconstruction/share/colcon-core/packages/vonns2_reconstruction)
+[8.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_reconstruction)
+[8.640s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction' for CMake module files
+[8.644s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction' for CMake config files
+[8.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_reconstruction', 'cmake_prefix_path')
+[8.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.ps1'
+[8.654s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.dsv'
+[8.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.sh'
+[8.665s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/lib'
+[8.666s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/bin'
+[8.667s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/lib/pkgconfig/vonns2_reconstruction.pc'
+[8.669s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/lib/python3.10/site-packages'
+[8.670s] Level 1:colcon.colcon_core.environment:checking '/home/nicolas/RAS/install/vonns2_reconstruction/bin'
+[8.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.ps1'
+[8.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.dsv'
+[8.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.sh'
+[8.691s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.bash'
+[8.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.zsh'
+[8.701s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/nicolas/RAS/install/vonns2_reconstruction/share/colcon-core/packages/vonns2_reconstruction)
+[8.703s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.704s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.704s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.705s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.737s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.738s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.738s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.808s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.810s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolas/RAS/install/local_setup.ps1'
+[8.816s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicolas/RAS/install/_local_setup_util_ps1.py'
+[8.824s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolas/RAS/install/setup.ps1'
+[8.830s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolas/RAS/install/local_setup.sh'
+[8.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/nicolas/RAS/install/_local_setup_util_sh.py'
+[8.854s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolas/RAS/install/setup.sh'
+[8.859s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolas/RAS/install/local_setup.bash'
+[8.861s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolas/RAS/install/setup.bash'
+[8.866s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/nicolas/RAS/install/local_setup.zsh'
+[8.869s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/nicolas/RAS/install/setup.zsh'

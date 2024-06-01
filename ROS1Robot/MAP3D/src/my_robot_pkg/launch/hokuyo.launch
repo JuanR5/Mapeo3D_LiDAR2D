@@ -1,0 +1,8 @@
+<launch>
+  <node pkg="my_robot_pkg" type="hokuyo_scan_node.py" name="hokuyo_node" output="screen">
+    <param name="serial_port" value="/dev/ttyACM1" /> <!-- Use appropriate port if USB -->
+    <param name="serial_baud" value="115200" />
+    <param name="frame_id" value="laser" />
+    <remap from="/scan" to="/hokuyo_scan" />
+  </node>
+</launch>

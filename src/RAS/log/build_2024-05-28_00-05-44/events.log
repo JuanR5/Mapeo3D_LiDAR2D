@@ -1,0 +1,972 @@
+[0.000000] (-) TimerEvent: {}
+[0.004344] (vonns2_bringup) JobQueued: {'identifier': 'vonns2_bringup', 'dependencies': OrderedDict()}
+[0.004623] (vonns2_gazebo) JobQueued: {'identifier': 'vonns2_gazebo', 'dependencies': OrderedDict()}
+[0.006006] (vonns2_reconstruction) JobQueued: {'identifier': 'vonns2_reconstruction', 'dependencies': OrderedDict()}
+[0.006238] (vonns2_bringup) JobStarted: {'identifier': 'vonns2_bringup'}
+[0.020853] (vonns2_gazebo) JobStarted: {'identifier': 'vonns2_gazebo'}
+[0.037396] (vonns2_bringup) JobProgress: {'identifier': 'vonns2_bringup', 'progress': 'cmake'}
+[0.039211] (vonns2_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/nicolas/RAS/src/vonns2-main/vonns2_bringup', '-DCMAKE_INSTALL_PREFIX=/home/nicolas/RAS/install/vonns2_bringup'], 'cwd': '/home/nicolas/RAS/build/vonns2_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[0.061750] (vonns2_gazebo) JobProgress: {'identifier': 'vonns2_gazebo', 'progress': 'cmake'}
+[0.065882] (vonns2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '/home/nicolas/RAS/src/vonns2-main/vonns2_gazebo', '-DCMAKE_INSTALL_PREFIX=/home/nicolas/RAS/install/vonns2_gazebo'], 'cwd': '/home/nicolas/RAS/build/vonns2_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[0.100142] (-) TimerEvent: {}
+[0.201115] (-) TimerEvent: {}
+[0.302297] (-) TimerEvent: {}
+[0.355237] (vonns2_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.356573] (vonns2_gazebo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.402888] (-) TimerEvent: {}
+[0.504082] (-) TimerEvent: {}
+[0.605237] (-) TimerEvent: {}
+[0.634884] (vonns2_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.635281] (vonns2_gazebo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.671312] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.672460] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.705746] (-) TimerEvent: {}
+[0.806996] (-) TimerEvent: {}
+[0.815836] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.820338] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.830743] (vonns2_gazebo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.832879] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.837107] (vonns2_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.837400] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.837929] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.838126] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.845593] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.847414] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.907617] (-) TimerEvent: {}
+[1.002819] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.003965] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.007798] (-) TimerEvent: {}
+[1.018152] (vonns2_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.019113] (vonns2_gazebo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.019652] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.019926] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.021197] (vonns2_gazebo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.021567] (vonns2_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.029826] (vonns2_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.031200] (vonns2_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.108486] (-) TimerEvent: {}
+[1.210045] (-) TimerEvent: {}
+[1.315882] (-) TimerEvent: {}
+[1.363666] (vonns2_gazebo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.368570] (vonns2_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.417143] (-) TimerEvent: {}
+[1.517796] (-) TimerEvent: {}
+[1.570388] (vonns2_gazebo) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.570571] (vonns2_bringup) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.573044] (vonns2_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.573218] (vonns2_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.618012] (-) TimerEvent: {}
+[1.673270] (vonns2_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.673598] (vonns2_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.684246] (vonns2_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.684612] (vonns2_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.705748] (vonns2_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.706199] (vonns2_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.718137] (-) TimerEvent: {}
+[1.738964] (vonns2_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.739435] (vonns2_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.784023] (vonns2_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.784454] (vonns2_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.818471] (-) TimerEvent: {}
+[1.919806] (-) TimerEvent: {}
+[1.944995] (vonns2_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.951015] (vonns2_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.953750] (vonns2_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.957531] (vonns2_bringup) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.020835] (-) TimerEvent: {}
+[2.122261] (-) TimerEvent: {}
+[2.170698] (vonns2_gazebo) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.182778] (vonns2_bringup) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.223178] (-) TimerEvent: {}
+[2.229823] (vonns2_gazebo) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.234909] (vonns2_bringup) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.323391] (-) TimerEvent: {}
+[2.328608] (vonns2_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.328994] (vonns2_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.358039] (vonns2_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.358233] (vonns2_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.423758] (-) TimerEvent: {}
+[2.508500] (vonns2_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.508926] (vonns2_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.520877] (vonns2_gazebo) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.522591] (vonns2_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.524640] (-) TimerEvent: {}
+[2.631986] (-) TimerEvent: {}
+[2.694468] (vonns2_gazebo) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.697665] (vonns2_gazebo) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.722524] (vonns2_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.724843] (vonns2_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.732328] (-) TimerEvent: {}
+[2.833286] (-) TimerEvent: {}
+[2.934199] (-) TimerEvent: {}
+[3.035311] (-) TimerEvent: {}
+[3.097694] (vonns2_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.135515] (-) TimerEvent: {}
+[3.141459] (vonns2_bringup) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.236455] (-) TimerEvent: {}
+[3.337083] (-) TimerEvent: {}
+[3.438324] (-) TimerEvent: {}
+[3.541982] (-) TimerEvent: {}
+[3.601028] (vonns2_gazebo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.637501] (vonns2_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.643507] (-) TimerEvent: {}
+[3.744412] (-) TimerEvent: {}
+[3.783016] (vonns2_gazebo) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.784872] (vonns2_gazebo) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.789444] (vonns2_gazebo) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.793465] (vonns2_gazebo) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.796907] (vonns2_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.804705] (vonns2_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.808242] (vonns2_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/nicolas/RAS/build/vonns2_gazebo\n'}
+[3.809562] (vonns2_bringup) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.809849] (vonns2_bringup) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.809967] (vonns2_bringup) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.810993] (vonns2_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.812067] (vonns2_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.813236] (vonns2_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.815003] (vonns2_bringup) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.815149] (vonns2_bringup) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.816096] (vonns2_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.818081] (vonns2_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.849370] (-) TimerEvent: {}
+[3.849913] (vonns2_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[3.850137] (vonns2_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/nicolas/RAS/build/vonns2_bringup\n'}
+[3.857581] (vonns2_bringup) CommandEnded: {'returncode': 0}
+[3.861755] (vonns2_bringup) JobProgress: {'identifier': 'vonns2_bringup', 'progress': 'build'}
+[3.861840] (vonns2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicolas/RAS/build/vonns2_bringup', '--', '-j2', '-l2'], 'cwd': '/home/nicolas/RAS/build/vonns2_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[3.868732] (vonns2_gazebo) CommandEnded: {'returncode': 0}
+[3.869765] (vonns2_gazebo) JobProgress: {'identifier': 'vonns2_gazebo', 'progress': 'build'}
+[3.870652] (vonns2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicolas/RAS/build/vonns2_gazebo', '--', '-j2', '-l2'], 'cwd': '/home/nicolas/RAS/build/vonns2_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[3.952018] (-) TimerEvent: {}
+[3.999575] (vonns2_gazebo) StdoutLine: {'line': b'Built target ament_cmake_python_copy_scripts\n'}
+[4.015142] (vonns2_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o\x1b[0m\n'}
+[4.027723] (vonns2_bringup) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_copy_scripts\n'}
+[4.052398] (-) TimerEvent: {}
+[4.153605] (-) TimerEvent: {}
+[4.254434] (-) TimerEvent: {}
+[4.360819] (-) TimerEvent: {}
+[4.468264] (-) TimerEvent: {}
+[4.568997] (-) TimerEvent: {}
+[4.643432] (vonns2_bringup) StdoutLine: {'line': b'running egg_info\n'}
+[4.645229] (vonns2_bringup) StdoutLine: {'line': b'creating scripts.egg-info\n'}
+[4.645932] (vonns2_bringup) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[4.646674] (vonns2_bringup) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[4.647285] (vonns2_bringup) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[4.648222] (vonns2_bringup) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[4.669519] (-) TimerEvent: {}
+[4.684713] (vonns2_bringup) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[4.684962] (vonns2_bringup) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[4.715465] (vonns2_bringup) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_scripts_egg\n'}
+[4.770322] (-) TimerEvent: {}
+[4.871298] (-) TimerEvent: {}
+[4.878817] (vonns2_gazebo) StdoutLine: {'line': b'running egg_info\n'}
+[4.879955] (vonns2_gazebo) StdoutLine: {'line': b'creating scripts.egg-info\n'}
+[4.880772] (vonns2_gazebo) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[4.882263] (vonns2_gazebo) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[4.883067] (vonns2_gazebo) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[4.883895] (vonns2_gazebo) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[4.888751] (vonns2_gazebo) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[4.890727] (vonns2_gazebo) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[4.946175] (vonns2_gazebo) StdoutLine: {'line': b'Built target ament_cmake_python_build_scripts_egg\n'}
+[4.971905] (vonns2_gazebo) CommandEnded: {'returncode': 0}
+[4.972672] (-) TimerEvent: {}
+[5.041026] (vonns2_gazebo) JobProgress: {'identifier': 'vonns2_gazebo', 'progress': 'install'}
+[5.059216] (vonns2_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicolas/RAS/build/vonns2_gazebo'], 'cwd': '/home/nicolas/RAS/build/vonns2_gazebo', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_gazebo'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[5.072833] (-) TimerEvent: {}
+[5.077181] (vonns2_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.077867] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.sh\n'}
+[5.078097] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.dsv\n'}
+[5.078333] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info\n'}
+[5.078915] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.079145] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.079342] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.079503] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.079794] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts\n'}
+[5.079942] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/joint_group_position_publisher.py\n'}
+[5.080270] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[5.158596] (vonns2_gazebo) StdoutLine: {'line': b"Listing '/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts'...\n"}
+[5.158755] (vonns2_gazebo) StdoutLine: {'line': b"Compiling '/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/__init__.py'...\n"}
+[5.158800] (vonns2_gazebo) StdoutLine: {'line': b"Compiling '/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/joint_group_position_publisher.py'...\n"}
+[5.167601] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/lib/vonns2_gazebo/joint_group_position_publisher.py\n'}
+[5.168061] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config\n'}
+[5.168218] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config/visualization.rviz\n'}
+[5.168383] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config/joint_group_position_controller.yaml\n'}
+[5.168532] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description\n'}
+[5.168734] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2.urdf.xacro\n'}
+[5.168877] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2_core.xacro\n'}
+[5.168973] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/lidar.xacro\n'}
+[5.169101] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/ros2_control.xacro\n'}
+[5.169232] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch\n'}
+[5.169329] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/robot_state_publisher.launch.py\n'}
+[5.169446] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/joint_group_position_controller.launch.py\n'}
+[5.169666] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/gazebo.launch.py\n'}
+[5.169851] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/visualization.launch.py\n'}
+[5.170038] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes\n'}
+[5.170207] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/servo.STL\n'}
+[5.171451] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/laser.STL\n'}
+[5.171798] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/base_footprint.STL\n'}
+[5.173022] (-) TimerEvent: {}
+[5.177868] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds\n'}
+[5.178183] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds/cubic.sdf\n'}
+[5.178366] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds/cylinder.sdf\n'}
+[5.178506] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds/sphere.sdf\n'}
+[5.178767] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/package_run_dependencies/vonns2_gazebo\n'}
+[5.179018] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/parent_prefix_path/vonns2_gazebo\n'}
+[5.179211] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.sh\n'}
+[5.179404] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.dsv\n'}
+[5.179606] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.sh\n'}
+[5.179793] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.dsv\n'}
+[5.179997] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.bash\n'}
+[5.180208] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.sh\n'}
+[5.180404] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.zsh\n'}
+[5.180579] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.dsv\n'}
+[5.180796] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv\n'}
+[5.181010] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/packages/vonns2_gazebo\n'}
+[5.181234] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig.cmake\n'}
+[5.181422] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig-version.cmake\n'}
+[5.181588] (vonns2_gazebo) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.xml\n'}
+[5.185749] (vonns2_gazebo) CommandEnded: {'returncode': 0}
+[5.275328] (-) TimerEvent: {}
+[5.281788] (vonns2_gazebo) JobEnded: {'identifier': 'vonns2_gazebo', 'rc': 0}
+[5.283331] (vonns2_reconstruction) JobStarted: {'identifier': 'vonns2_reconstruction'}
+[5.305826] (vonns2_reconstruction) JobProgress: {'identifier': 'vonns2_reconstruction', 'progress': 'cmake'}
+[5.306350] (vonns2_reconstruction) Command: {'cmd': ['/usr/bin/cmake', '/home/nicolas/RAS/src/vonns2-main/vonns2_reconstruction', '-DCMAKE_INSTALL_PREFIX=/home/nicolas/RAS/install/vonns2_reconstruction'], 'cwd': '/home/nicolas/RAS/build/vonns2_reconstruction', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_reconstruction'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[5.376915] (-) TimerEvent: {}
+[5.432573] (vonns2_reconstruction) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.477756] (-) TimerEvent: {}
+[5.539181] (vonns2_reconstruction) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.553044] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.578139] (-) TimerEvent: {}
+[5.699162] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.700110] (-) TimerEvent: {}
+[5.707217] (vonns2_reconstruction) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.708130] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.708785] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.715325] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.800203] (-) TimerEvent: {}
+[5.874179] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.888523] (vonns2_reconstruction) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.888970] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.890334] (vonns2_reconstruction) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.895736] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.901468] (-) TimerEvent: {}
+[6.007452] (-) TimerEvent: {}
+[6.108197] (-) TimerEvent: {}
+[6.208861] (-) TimerEvent: {}
+[6.242832] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[6.309366] (-) TimerEvent: {}
+[6.410597] (-) TimerEvent: {}
+[6.429203] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[6.432213] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.511746] (-) TimerEvent: {}
+[6.519873] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.529729] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.550969] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.578478] (vonns2_reconstruction) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.613830] (-) TimerEvent: {}
+[6.627892] (vonns2_reconstruction) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.715102] (-) TimerEvent: {}
+[6.762841] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[6.767420] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.816682] (-) TimerEvent: {}
+[6.917198] (-) TimerEvent: {}
+[6.989012] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.017421] (-) TimerEvent: {}
+[7.046695] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[7.118979] (-) TimerEvent: {}
+[7.144048] (vonns2_reconstruction) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[7.169739] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[7.231406] (-) TimerEvent: {}
+[7.321582] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.326750] (vonns2_reconstruction) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.332064] (-) TimerEvent: {}
+[7.438262] (-) TimerEvent: {}
+[7.491139] (vonns2_reconstruction) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.492676] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.539548] (-) TimerEvent: {}
+[7.640546] (-) TimerEvent: {}
+[7.741328] (-) TimerEvent: {}
+[7.842436] (-) TimerEvent: {}
+[7.878459] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[7.942739] (-) TimerEvent: {}
+[8.044037] (-) TimerEvent: {}
+[8.144952] (-) TimerEvent: {}
+[8.170370] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[8.245933] (-) TimerEvent: {}
+[8.346922] (-) TimerEvent: {}
+[8.447683] (-) TimerEvent: {}
+[8.549152] (-) TimerEvent: {}
+[8.650523] (-) TimerEvent: {}
+[8.751499] (-) TimerEvent: {}
+[8.852406] (-) TimerEvent: {}
+[8.953075] (-) TimerEvent: {}
+[9.052228] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[9.053197] (-) TimerEvent: {}
+[9.107111] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[9.147493] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[9.154117] (-) TimerEvent: {}
+[9.255661] (-) TimerEvent: {}
+[9.356643] (-) TimerEvent: {}
+[9.458473] (-) TimerEvent: {}
+[9.500388] (vonns2_reconstruction) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[9.528579] (vonns2_reconstruction) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[9.558957] (-) TimerEvent: {}
+[9.596072] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[9.596394] (vonns2_reconstruction) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[9.659159] (-) TimerEvent: {}
+[9.669085] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[9.705868] (vonns2_reconstruction) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[9.734970] (vonns2_reconstruction) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[9.762634] (-) TimerEvent: {}
+[9.809601] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[9.809983] (vonns2_reconstruction) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[9.863630] (-) TimerEvent: {}
+[9.893598] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[9.908172] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[9.963958] (-) TimerEvent: {}
+[10.066180] (-) TimerEvent: {}
+[10.168352] (-) TimerEvent: {}
+[10.269041] (-) TimerEvent: {}
+[10.280427] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[10.281645] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[10.291956] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[10.316135] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[10.357292] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[10.369221] (-) TimerEvent: {}
+[10.427279] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[10.469995] (-) TimerEvent: {}
+[10.570948] (-) TimerEvent: {}
+[10.628536] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[10.629930] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[10.671695] (-) TimerEvent: {}
+[10.773083] (-) TimerEvent: {}
+[10.774168] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[10.779656] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[10.873534] (-) TimerEvent: {}
+[10.918474] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[10.923130] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for connect\n'}
+[10.977816] (-) TimerEvent: {}
+[11.060339] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[11.066734] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for remove\n'}
+[11.078010] (-) TimerEvent: {}
+[11.179859] (-) TimerEvent: {}
+[11.220536] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[11.220843] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[11.281899] (-) TimerEvent: {}
+[11.369089] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[11.369490] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[11.384012] (-) TimerEvent: {}
+[11.486334] (-) TimerEvent: {}
+[11.509465] (vonns2_reconstruction) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[11.587188] (-) TimerEvent: {}
+[11.689010] (-) TimerEvent: {}
+[11.694907] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[11.701649] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[11.708549] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[11.714375] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[11.789168] (-) TimerEvent: {}
+[11.832143] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[11.844877] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[11.853088] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[11.866742] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[11.889509] (-) TimerEvent: {}
+[11.995294] (-) TimerEvent: {}
+[12.069760] (vonns2_reconstruction) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[12.096118] (-) TimerEvent: {}
+[12.098078] (vonns2_reconstruction) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[12.169352] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[12.173395] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[12.173838] (vonns2_reconstruction) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[12.199584] (-) TimerEvent: {}
+[12.285205] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[12.285714] (vonns2_reconstruction) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[12.286676] (vonns2_reconstruction) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[12.299980] (-) TimerEvent: {}
+[12.401862] (-) TimerEvent: {}
+[12.503073] (-) TimerEvent: {}
+[12.604008] (-) TimerEvent: {}
+[12.621560] (vonns2_reconstruction) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[12.639795] (vonns2_reconstruction) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[12.677725] (vonns2_reconstruction) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[12.705437] (-) TimerEvent: {}
+[12.806824] (-) TimerEvent: {}
+[12.908583] (-) TimerEvent: {}
+[13.009336] (-) TimerEvent: {}
+[13.017922] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[13.109680] (-) TimerEvent: {}
+[13.211133] (-) TimerEvent: {}
+[13.311753] (-) TimerEvent: {}
+[13.342344] (vonns2_reconstruction) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[13.412413] (-) TimerEvent: {}
+[13.513603] (-) TimerEvent: {}
+[13.614408] (-) TimerEvent: {}
+[13.652512] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[13.656987] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[13.658205] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[13.659599] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[13.660267] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[13.662134] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[13.662785] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[13.664520] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[13.665249] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[13.667046] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[13.667724] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[13.669493] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[13.670245] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[13.671074] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[13.671726] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[13.672674] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[13.673637] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[13.675483] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[13.676294] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[13.678203] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[13.679068] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[13.680915] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[13.681550] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[13.683452] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[13.684447] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[13.686296] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[13.691026] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[13.691411] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[13.691519] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[13.691589] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[13.691655] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[13.693704] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[13.694945] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[13.697936] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[13.698544] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[13.700381] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[13.701173] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[13.703202] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[13.703593] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[13.705243] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[13.706094] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[13.706649] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[13.707087] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[13.707219] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[13.707338] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[13.708245] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[13.708560] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[13.710509] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[13.711105] (vonns2_reconstruction) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[13.712915] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[13.714738] (-) TimerEvent: {}
+[13.715069] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL (Required is at least version "1.2") \n'}
+[13.842913] (-) TimerEvent: {}
+[13.943646] (-) TimerEvent: {}
+[14.044353] (-) TimerEvent: {}
+[14.092317] (vonns2_reconstruction) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[14.144714] (-) TimerEvent: {}
+[14.247520] (-) TimerEvent: {}
+[14.254952] (vonns2_reconstruction) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[14.255931] (vonns2_reconstruction) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[14.256151] (vonns2_reconstruction) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[14.257013] (vonns2_reconstruction) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[14.258129] (vonns2_reconstruction) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[14.259791] (vonns2_reconstruction) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[14.261620] (vonns2_reconstruction) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[14.261828] (vonns2_reconstruction) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[14.262777] (vonns2_reconstruction) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[14.265547] (vonns2_reconstruction) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.347724] (-) TimerEvent: {}
+[14.390093] (vonns2_reconstruction) StdoutLine: {'line': b'-- Generating done\n'}
+[14.396699] (vonns2_reconstruction) StdoutLine: {'line': b'-- Build files have been written to: /home/nicolas/RAS/build/vonns2_reconstruction\n'}
+[14.426659] (vonns2_reconstruction) CommandEnded: {'returncode': 0}
+[14.428535] (vonns2_reconstruction) JobProgress: {'identifier': 'vonns2_reconstruction', 'progress': 'build'}
+[14.430470] (vonns2_reconstruction) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nicolas/RAS/build/vonns2_reconstruction', '--', '-j2', '-l2'], 'cwd': '/home/nicolas/RAS/build/vonns2_reconstruction', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_reconstruction'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[14.448564] (-) TimerEvent: {}
+[14.549989] (-) TimerEvent: {}
+[14.574200] (vonns2_reconstruction) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/point_cloud2_assembler.dir/src/point_cloud2_assembler.cpp.o\x1b[0m\n'}
+[14.615312] (vonns2_reconstruction) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/point_cloud2_converter.dir/src/point_cloud2_converter.cpp.o\x1b[0m\n'}
+[14.650563] (-) TimerEvent: {}
+[14.753897] (-) TimerEvent: {}
+[14.855153] (-) TimerEvent: {}
+[14.956551] (-) TimerEvent: {}
+[15.057195] (-) TimerEvent: {}
+[15.158142] (-) TimerEvent: {}
+[15.264735] (-) TimerEvent: {}
+[15.367055] (-) TimerEvent: {}
+[15.468304] (-) TimerEvent: {}
+[15.569020] (-) TimerEvent: {}
+[15.669913] (-) TimerEvent: {}
+[15.770394] (-) TimerEvent: {}
+[15.871889] (-) TimerEvent: {}
+[15.972594] (-) TimerEvent: {}
+[16.073703] (-) TimerEvent: {}
+[16.174643] (-) TimerEvent: {}
+[16.275805] (-) TimerEvent: {}
+[16.377537] (-) TimerEvent: {}
+[16.478742] (-) TimerEvent: {}
+[16.580273] (-) TimerEvent: {}
+[16.681812] (-) TimerEvent: {}
+[16.782654] (-) TimerEvent: {}
+[16.883880] (-) TimerEvent: {}
+[16.985198] (-) TimerEvent: {}
+[17.087042] (-) TimerEvent: {}
+[17.188534] (-) TimerEvent: {}
+[17.313143] (-) TimerEvent: {}
+[17.414494] (-) TimerEvent: {}
+[17.516497] (-) TimerEvent: {}
+[17.617702] (-) TimerEvent: {}
+[17.718951] (-) TimerEvent: {}
+[17.821724] (-) TimerEvent: {}
+[17.924712] (-) TimerEvent: {}
+[18.025777] (-) TimerEvent: {}
+[18.126772] (-) TimerEvent: {}
+[18.227459] (-) TimerEvent: {}
+[18.329991] (-) TimerEvent: {}
+[18.430911] (-) TimerEvent: {}
+[18.532302] (-) TimerEvent: {}
+[18.632925] (-) TimerEvent: {}
+[18.734103] (-) TimerEvent: {}
+[18.834657] (-) TimerEvent: {}
+[18.936496] (-) TimerEvent: {}
+[19.037626] (-) TimerEvent: {}
+[19.138347] (-) TimerEvent: {}
+[19.239473] (-) TimerEvent: {}
+[19.340073] (-) TimerEvent: {}
+[19.440687] (-) TimerEvent: {}
+[19.541942] (-) TimerEvent: {}
+[19.653169] (-) TimerEvent: {}
+[19.754826] (-) TimerEvent: {}
+[19.856188] (-) TimerEvent: {}
+[19.956925] (-) TimerEvent: {}
+[20.058696] (-) TimerEvent: {}
+[20.159341] (-) TimerEvent: {}
+[20.260298] (-) TimerEvent: {}
+[20.361135] (-) TimerEvent: {}
+[20.461745] (-) TimerEvent: {}
+[20.567330] (-) TimerEvent: {}
+[20.668677] (-) TimerEvent: {}
+[20.769335] (-) TimerEvent: {}
+[20.870299] (-) TimerEvent: {}
+[20.971755] (-) TimerEvent: {}
+[21.073258] (-) TimerEvent: {}
+[21.174439] (-) TimerEvent: {}
+[21.283260] (-) TimerEvent: {}
+[21.383793] (-) TimerEvent: {}
+[21.484677] (-) TimerEvent: {}
+[21.585440] (-) TimerEvent: {}
+[21.686964] (-) TimerEvent: {}
+[21.789016] (-) TimerEvent: {}
+[21.890506] (-) TimerEvent: {}
+[21.991194] (-) TimerEvent: {}
+[22.092391] (-) TimerEvent: {}
+[22.193323] (-) TimerEvent: {}
+[22.294431] (-) TimerEvent: {}
+[22.395190] (-) TimerEvent: {}
+[22.497080] (-) TimerEvent: {}
+[22.598480] (-) TimerEvent: {}
+[22.699093] (-) TimerEvent: {}
+[22.800016] (-) TimerEvent: {}
+[22.900900] (-) TimerEvent: {}
+[23.001972] (-) TimerEvent: {}
+[23.103097] (-) TimerEvent: {}
+[23.203681] (-) TimerEvent: {}
+[23.304736] (-) TimerEvent: {}
+[23.406230] (-) TimerEvent: {}
+[23.506843] (-) TimerEvent: {}
+[23.607691] (-) TimerEvent: {}
+[23.708516] (-) TimerEvent: {}
+[23.809307] (-) TimerEvent: {}
+[23.910560] (-) TimerEvent: {}
+[24.011970] (-) TimerEvent: {}
+[24.112935] (-) TimerEvent: {}
+[24.214216] (-) TimerEvent: {}
+[24.315846] (-) TimerEvent: {}
+[24.416942] (-) TimerEvent: {}
+[24.517870] (-) TimerEvent: {}
+[24.619979] (-) TimerEvent: {}
+[24.736946] (-) TimerEvent: {}
+[24.837987] (-) TimerEvent: {}
+[24.939008] (-) TimerEvent: {}
+[25.040314] (-) TimerEvent: {}
+[25.141462] (-) TimerEvent: {}
+[25.242314] (-) TimerEvent: {}
+[25.343416] (-) TimerEvent: {}
+[25.444743] (-) TimerEvent: {}
+[25.546487] (-) TimerEvent: {}
+[25.648052] (-) TimerEvent: {}
+[25.749577] (-) TimerEvent: {}
+[25.850629] (-) TimerEvent: {}
+[25.951550] (-) TimerEvent: {}
+[26.052165] (-) TimerEvent: {}
+[26.153744] (-) TimerEvent: {}
+[26.254581] (-) TimerEvent: {}
+[26.355263] (-) TimerEvent: {}
+[26.455926] (-) TimerEvent: {}
+[26.556526] (-) TimerEvent: {}
+[26.658211] (-) TimerEvent: {}
+[26.761483] (-) TimerEvent: {}
+[26.866964] (-) TimerEvent: {}
+[26.970165] (-) TimerEvent: {}
+[27.070701] (-) TimerEvent: {}
+[27.171293] (-) TimerEvent: {}
+[27.272569] (-) TimerEvent: {}
+[27.374186] (-) TimerEvent: {}
+[27.475056] (-) TimerEvent: {}
+[27.575784] (-) TimerEvent: {}
+[27.677975] (-) TimerEvent: {}
+[27.779980] (-) TimerEvent: {}
+[27.881399] (-) TimerEvent: {}
+[27.982094] (-) TimerEvent: {}
+[28.082729] (-) TimerEvent: {}
+[28.184571] (-) TimerEvent: {}
+[28.323789] (-) TimerEvent: {}
+[28.426055] (-) TimerEvent: {}
+[28.531713] (-) TimerEvent: {}
+[28.635800] (-) TimerEvent: {}
+[28.738236] (-) TimerEvent: {}
+[28.841006] (-) TimerEvent: {}
+[28.942062] (-) TimerEvent: {}
+[29.043545] (-) TimerEvent: {}
+[29.144203] (-) TimerEvent: {}
+[29.245795] (-) TimerEvent: {}
+[29.346574] (-) TimerEvent: {}
+[29.447553] (-) TimerEvent: {}
+[29.552734] (-) TimerEvent: {}
+[29.653455] (-) TimerEvent: {}
+[29.754687] (-) TimerEvent: {}
+[29.855987] (-) TimerEvent: {}
+[29.957452] (-) TimerEvent: {}
+[30.058371] (-) TimerEvent: {}
+[30.159165] (-) TimerEvent: {}
+[30.207239] (vonns2_bringup) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tf_broadcaster\x1b[0m\n'}
+[30.259492] (-) TimerEvent: {}
+[30.361256] (-) TimerEvent: {}
+[30.462050] (-) TimerEvent: {}
+[30.564252] (-) TimerEvent: {}
+[30.665750] (-) TimerEvent: {}
+[30.766927] (-) TimerEvent: {}
+[30.870237] (-) TimerEvent: {}
+[30.971774] (-) TimerEvent: {}
+[31.073612] (-) TimerEvent: {}
+[31.176888] (-) TimerEvent: {}
+[31.278642] (-) TimerEvent: {}
+[31.379545] (-) TimerEvent: {}
+[31.480900] (-) TimerEvent: {}
+[31.582080] (-) TimerEvent: {}
+[31.683427] (-) TimerEvent: {}
+[31.784196] (-) TimerEvent: {}
+[31.885694] (-) TimerEvent: {}
+[31.986430] (-) TimerEvent: {}
+[32.087895] (-) TimerEvent: {}
+[32.106047] (vonns2_bringup) StdoutLine: {'line': b'[100%] Built target tf_broadcaster\n'}
+[32.160140] (vonns2_bringup) CommandEnded: {'returncode': 0}
+[32.188171] (-) TimerEvent: {}
+[32.289300] (-) TimerEvent: {}
+[32.390227] (-) TimerEvent: {}
+[32.424337] (vonns2_bringup) JobProgress: {'identifier': 'vonns2_bringup', 'progress': 'install'}
+[32.424458] (vonns2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicolas/RAS/build/vonns2_bringup'], 'cwd': '/home/nicolas/RAS/build/vonns2_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_bringup'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[32.460059] (vonns2_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[32.462521] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/lib/vonns2_bringup/tf_broadcaster\n'}
+[32.475409] (vonns2_bringup) StdoutLine: {'line': b'-- Set runtime path of "/home/nicolas/RAS/install/vonns2_bringup/lib/vonns2_bringup/tf_broadcaster" to ""\n'}
+[32.476085] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/pythonpath.sh\n'}
+[32.476971] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/pythonpath.dsv\n'}
+[32.477887] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info\n'}
+[32.478790] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[32.479720] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[32.480245] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[32.481107] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[32.481953] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts\n'}
+[32.482348] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/serial_port_reader.py\n'}
+[32.482706] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[32.490305] (-) TimerEvent: {}
+[32.591027] (-) TimerEvent: {}
+[32.646245] (vonns2_bringup) StdoutLine: {'line': b"Listing '/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts'...\n"}
+[32.647433] (vonns2_bringup) StdoutLine: {'line': b"Compiling '/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/__init__.py'...\n"}
+[32.647719] (vonns2_bringup) StdoutLine: {'line': b"Compiling '/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/serial_port_reader.py'...\n"}
+[32.664178] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/lib/vonns2_bringup/serial_port_reader.py\n'}
+[32.665422] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/launch\n'}
+[32.666668] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/launch/robot_state_publisher.launch.py\n'}
+[32.668163] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/launch/robot.launch.py\n'}
+[32.669497] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/ament_index/resource_index/package_run_dependencies/vonns2_bringup\n'}
+[32.670725] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/ament_index/resource_index/parent_prefix_path/vonns2_bringup\n'}
+[32.671854] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/ament_prefix_path.sh\n'}
+[32.672988] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/ament_prefix_path.dsv\n'}
+[32.674018] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/path.sh\n'}
+[32.675366] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/path.dsv\n'}
+[32.705796] (-) TimerEvent: {}
+[32.735764] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.bash\n'}
+[32.743909] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.sh\n'}
+[32.744254] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.zsh\n'}
+[32.744676] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.dsv\n'}
+[32.744794] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.dsv\n'}
+[32.745808] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/ament_index/resource_index/packages/vonns2_bringup\n'}
+[32.746143] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/cmake/vonns2_bringupConfig.cmake\n'}
+[32.746987] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/cmake/vonns2_bringupConfig-version.cmake\n'}
+[32.747228] (vonns2_bringup) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.xml\n'}
+[32.755847] (vonns2_bringup) CommandEnded: {'returncode': 0}
+[32.806638] (-) TimerEvent: {}
+[32.908557] (-) TimerEvent: {}
+[33.010536] (-) TimerEvent: {}
+[33.068909] (vonns2_bringup) JobEnded: {'identifier': 'vonns2_bringup', 'rc': 0}
+[33.110924] (-) TimerEvent: {}
+[33.211523] (-) TimerEvent: {}
+[33.320657] (-) TimerEvent: {}
+[33.422068] (-) TimerEvent: {}
+[33.523931] (-) TimerEvent: {}
+[33.625839] (-) TimerEvent: {}
+[33.728719] (-) TimerEvent: {}
+[33.830210] (-) TimerEvent: {}
+[33.931379] (-) TimerEvent: {}
+[34.032185] (-) TimerEvent: {}
+[34.133534] (-) TimerEvent: {}
+[34.243954] (-) TimerEvent: {}
+[34.345265] (-) TimerEvent: {}
+[34.447258] (-) TimerEvent: {}
+[34.552550] (-) TimerEvent: {}
+[34.653400] (-) TimerEvent: {}
+[34.754861] (-) TimerEvent: {}
+[34.856338] (-) TimerEvent: {}
+[34.958099] (-) TimerEvent: {}
+[35.059660] (-) TimerEvent: {}
+[35.160670] (-) TimerEvent: {}
+[35.262436] (-) TimerEvent: {}
+[35.363593] (-) TimerEvent: {}
+[35.464355] (-) TimerEvent: {}
+[35.565645] (-) TimerEvent: {}
+[35.667433] (-) TimerEvent: {}
+[35.768296] (-) TimerEvent: {}
+[35.869273] (-) TimerEvent: {}
+[35.971268] (-) TimerEvent: {}
+[36.072358] (-) TimerEvent: {}
+[36.173299] (-) TimerEvent: {}
+[36.274687] (-) TimerEvent: {}
+[36.375597] (-) TimerEvent: {}
+[36.476449] (-) TimerEvent: {}
+[36.577254] (-) TimerEvent: {}
+[36.678175] (-) TimerEvent: {}
+[36.779616] (-) TimerEvent: {}
+[36.881605] (-) TimerEvent: {}
+[36.982470] (-) TimerEvent: {}
+[37.083434] (-) TimerEvent: {}
+[37.184837] (-) TimerEvent: {}
+[37.286309] (-) TimerEvent: {}
+[37.387342] (-) TimerEvent: {}
+[37.489127] (-) TimerEvent: {}
+[37.590417] (-) TimerEvent: {}
+[37.692478] (-) TimerEvent: {}
+[37.793786] (-) TimerEvent: {}
+[37.894944] (-) TimerEvent: {}
+[37.995768] (-) TimerEvent: {}
+[38.096605] (-) TimerEvent: {}
+[38.198683] (-) TimerEvent: {}
+[38.300078] (-) TimerEvent: {}
+[38.401667] (-) TimerEvent: {}
+[38.502501] (-) TimerEvent: {}
+[38.606757] (-) TimerEvent: {}
+[38.708507] (-) TimerEvent: {}
+[38.810154] (-) TimerEvent: {}
+[38.911401] (-) TimerEvent: {}
+[39.012161] (-) TimerEvent: {}
+[39.113762] (-) TimerEvent: {}
+[39.216052] (-) TimerEvent: {}
+[39.317127] (-) TimerEvent: {}
+[39.417772] (-) TimerEvent: {}
+[39.518488] (-) TimerEvent: {}
+[39.620396] (-) TimerEvent: {}
+[39.721185] (-) TimerEvent: {}
+[39.822234] (-) TimerEvent: {}
+[39.923914] (-) TimerEvent: {}
+[40.024867] (-) TimerEvent: {}
+[40.126659] (-) TimerEvent: {}
+[40.229679] (-) TimerEvent: {}
+[40.331457] (-) TimerEvent: {}
+[40.433057] (-) TimerEvent: {}
+[40.533692] (-) TimerEvent: {}
+[40.634701] (-) TimerEvent: {}
+[40.735907] (-) TimerEvent: {}
+[40.837667] (-) TimerEvent: {}
+[40.939397] (-) TimerEvent: {}
+[41.041238] (-) TimerEvent: {}
+[41.142113] (-) TimerEvent: {}
+[41.244002] (-) TimerEvent: {}
+[41.345627] (-) TimerEvent: {}
+[41.447301] (-) TimerEvent: {}
+[41.549278] (-) TimerEvent: {}
+[41.650731] (-) TimerEvent: {}
+[41.752395] (-) TimerEvent: {}
+[41.853585] (-) TimerEvent: {}
+[41.955075] (-) TimerEvent: {}
+[42.056766] (-) TimerEvent: {}
+[42.157522] (-) TimerEvent: {}
+[42.258729] (-) TimerEvent: {}
+[42.360865] (-) TimerEvent: {}
+[42.461942] (-) TimerEvent: {}
+[42.563100] (-) TimerEvent: {}
+[42.664569] (-) TimerEvent: {}
+[42.765369] (-) TimerEvent: {}
+[42.866514] (-) TimerEvent: {}
+[42.967207] (-) TimerEvent: {}
+[43.068473] (-) TimerEvent: {}
+[43.169474] (-) TimerEvent: {}
+[43.270654] (-) TimerEvent: {}
+[43.372049] (-) TimerEvent: {}
+[43.473162] (-) TimerEvent: {}
+[43.573920] (-) TimerEvent: {}
+[43.685487] (-) TimerEvent: {}
+[43.786211] (-) TimerEvent: {}
+[43.887448] (-) TimerEvent: {}
+[43.988205] (-) TimerEvent: {}
+[44.089626] (-) TimerEvent: {}
+[44.191364] (-) TimerEvent: {}
+[44.292816] (-) TimerEvent: {}
+[44.393808] (-) TimerEvent: {}
+[44.495004] (-) TimerEvent: {}
+[44.596356] (-) TimerEvent: {}
+[44.697305] (-) TimerEvent: {}
+[44.798325] (-) TimerEvent: {}
+[44.899526] (-) TimerEvent: {}
+[44.993488] (vonns2_reconstruction) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable point_cloud2_converter\x1b[0m\n'}
+[45.000543] (-) TimerEvent: {}
+[45.101719] (-) TimerEvent: {}
+[45.202517] (-) TimerEvent: {}
+[45.303540] (-) TimerEvent: {}
+[45.405196] (-) TimerEvent: {}
+[45.505933] (-) TimerEvent: {}
+[45.607139] (-) TimerEvent: {}
+[45.709063] (-) TimerEvent: {}
+[45.810627] (-) TimerEvent: {}
+[45.911451] (-) TimerEvent: {}
+[45.986532] (vonns2_reconstruction) StdoutLine: {'line': b'[ 75%] Built target point_cloud2_converter\n'}
+[46.012280] (-) TimerEvent: {}
+[46.114675] (-) TimerEvent: {}
+[46.216449] (-) TimerEvent: {}
+[46.317747] (-) TimerEvent: {}
+[46.418319] (-) TimerEvent: {}
+[46.519423] (-) TimerEvent: {}
+[46.621131] (-) TimerEvent: {}
+[46.722505] (-) TimerEvent: {}
+[46.830297] (-) TimerEvent: {}
+[46.931918] (-) TimerEvent: {}
+[47.033253] (-) TimerEvent: {}
+[47.141582] (-) TimerEvent: {}
+[47.243091] (-) TimerEvent: {}
+[47.345221] (-) TimerEvent: {}
+[47.446039] (-) TimerEvent: {}
+[47.546743] (-) TimerEvent: {}
+[47.648133] (-) TimerEvent: {}
+[47.748947] (-) TimerEvent: {}
+[47.850048] (-) TimerEvent: {}
+[47.965700] (-) TimerEvent: {}
+[48.066501] (-) TimerEvent: {}
+[48.168285] (-) TimerEvent: {}
+[48.270184] (-) TimerEvent: {}
+[48.371938] (-) TimerEvent: {}
+[48.473926] (-) TimerEvent: {}
+[48.575425] (-) TimerEvent: {}
+[48.677660] (-) TimerEvent: {}
+[48.778811] (-) TimerEvent: {}
+[48.880571] (-) TimerEvent: {}
+[49.018242] (-) TimerEvent: {}
+[49.119573] (-) TimerEvent: {}
+[49.240155] (-) TimerEvent: {}
+[49.341640] (-) TimerEvent: {}
+[49.442667] (-) TimerEvent: {}
+[49.543847] (-) TimerEvent: {}
+[49.649117] (-) TimerEvent: {}
+[49.750173] (-) TimerEvent: {}
+[49.851704] (-) TimerEvent: {}
+[49.953412] (-) TimerEvent: {}
+[49.957681] (vonns2_reconstruction) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable point_cloud2_assembler\x1b[0m\n'}
+[50.053543] (-) TimerEvent: {}
+[50.154783] (-) TimerEvent: {}
+[50.255354] (-) TimerEvent: {}
+[50.362435] (-) TimerEvent: {}
+[50.462927] (-) TimerEvent: {}
+[50.565407] (-) TimerEvent: {}
+[50.667214] (-) TimerEvent: {}
+[50.768832] (-) TimerEvent: {}
+[50.895659] (-) TimerEvent: {}
+[50.998839] (-) TimerEvent: {}
+[51.100218] (-) TimerEvent: {}
+[51.201645] (-) TimerEvent: {}
+[51.302527] (-) TimerEvent: {}
+[51.404034] (-) TimerEvent: {}
+[51.505153] (-) TimerEvent: {}
+[51.607030] (-) TimerEvent: {}
+[51.708621] (-) TimerEvent: {}
+[51.809608] (-) TimerEvent: {}
+[51.910427] (-) TimerEvent: {}
+[52.011562] (-) TimerEvent: {}
+[52.113207] (-) TimerEvent: {}
+[52.214312] (-) TimerEvent: {}
+[52.314930] (-) TimerEvent: {}
+[52.416383] (-) TimerEvent: {}
+[52.524070] (-) TimerEvent: {}
+[52.624969] (-) TimerEvent: {}
+[52.676158] (vonns2_reconstruction) StdoutLine: {'line': b'[100%] Built target point_cloud2_assembler\n'}
+[52.725580] (-) TimerEvent: {}
+[52.748122] (vonns2_reconstruction) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_copy_scripts\n'}
+[52.827379] (-) TimerEvent: {}
+[52.928603] (-) TimerEvent: {}
+[53.029974] (-) TimerEvent: {}
+[53.131300] (-) TimerEvent: {}
+[53.232398] (-) TimerEvent: {}
+[53.333120] (-) TimerEvent: {}
+[53.434858] (-) TimerEvent: {}
+[53.535544] (-) TimerEvent: {}
+[53.636469] (-) TimerEvent: {}
+[53.737275] (-) TimerEvent: {}
+[53.838266] (-) TimerEvent: {}
+[53.939779] (-) TimerEvent: {}
+[54.040807] (-) TimerEvent: {}
+[54.097946] (vonns2_reconstruction) StdoutLine: {'line': b'running egg_info\n'}
+[54.099203] (vonns2_reconstruction) StdoutLine: {'line': b'creating scripts.egg-info\n'}
+[54.099558] (vonns2_reconstruction) StdoutLine: {'line': b'writing scripts.egg-info/PKG-INFO\n'}
+[54.100104] (vonns2_reconstruction) StdoutLine: {'line': b'writing dependency_links to scripts.egg-info/dependency_links.txt\n'}
+[54.100393] (vonns2_reconstruction) StdoutLine: {'line': b'writing top-level names to scripts.egg-info/top_level.txt\n'}
+[54.100712] (vonns2_reconstruction) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[54.107315] (vonns2_reconstruction) StdoutLine: {'line': b"reading manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[54.108875] (vonns2_reconstruction) StdoutLine: {'line': b"writing manifest file 'scripts.egg-info/SOURCES.txt'\n"}
+[54.141451] (-) TimerEvent: {}
+[54.182735] (vonns2_reconstruction) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_scripts_egg\n'}
+[54.211637] (vonns2_reconstruction) CommandEnded: {'returncode': 0}
+[54.241724] (-) TimerEvent: {}
+[54.296390] (vonns2_reconstruction) JobProgress: {'identifier': 'vonns2_reconstruction', 'progress': 'install'}
+[54.296603] (vonns2_reconstruction) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nicolas/RAS/build/vonns2_reconstruction'], 'cwd': '/home/nicolas/RAS/build/vonns2_reconstruction', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'nicolas'), ('LC_TIME', 'es_CO.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/nicolas'), ('OLDPWD', '/home/nicolas'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'es_CO.UTF-8'), ('MANAGERPID', '1489'), ('SYSTEMD_EXEC_PID', '1650'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2335'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nicolas/RAS/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nicolas'), ('JOURNAL_STREAM', '8:38327'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nicolas'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nicolas-virtual-machine:@/tmp/.ICE-unix/1618,unix/nicolas-virtual-machine:/tmp/.ICE-unix/1618'), ('INVOCATION_ID', '6d3c9373cc4444cda1a08821c8abdbe5'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G06FO2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:9577b89e-c9f2-4d38-ad45-ab07f1cfd0a0'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nicolas/RAS/build/vonns2_reconstruction'), ('TURTLEBOT3_MODEL', 'burger'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages:/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nicolas/RAS/install/vonns2_reconstruction:/home/nicolas/RAS/install/vonns2_gazebo:/home/nicolas/RAS/install/vonns2_bringup:/opt/ros/humble')]), 'shell': False}
+[54.313776] (vonns2_reconstruction) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[54.314507] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_assembler\n'}
+[54.323387] (vonns2_reconstruction) StdoutLine: {'line': b'-- Set runtime path of "/home/nicolas/RAS/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_assembler" to ""\n'}
+[54.323584] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_converter\n'}
+[54.326240] (vonns2_reconstruction) StdoutLine: {'line': b'-- Set runtime path of "/home/nicolas/RAS/install/vonns2_reconstruction/lib/vonns2_reconstruction/point_cloud2_converter" to ""\n'}
+[54.327162] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/pythonpath.sh\n'}
+[54.328148] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/pythonpath.dsv\n'}
+[54.329006] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info\n'}
+[54.329310] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[54.329494] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[54.329711] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[54.329805] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[54.329932] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts\n'}
+[54.330040] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts/__init__.py\n'}
+[54.342229] (-) TimerEvent: {}
+[54.409344] (vonns2_reconstruction) StdoutLine: {'line': b"Listing '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts'...\n"}
+[54.409627] (vonns2_reconstruction) StdoutLine: {'line': b"Compiling '/home/nicolas/RAS/install/vonns2_reconstruction/local/lib/python3.10/dist-packages/scripts/__init__.py'...\n"}
+[54.420756] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/config\n'}
+[54.421883] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/config/reconstruction_in_gazebo.rviz\n'}
+[54.423512] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/config/reconstruction.rviz\n'}
+[54.425432] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/launch\n'}
+[54.425960] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/launch/reconstruction_in_gazebo.launch.py\n'}
+[54.427244] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/launch/reconstruction_in_bringup.launch.py\n'}
+[54.428152] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/pcd\n'}
+[54.429177] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/ament_index/resource_index/package_run_dependencies/vonns2_reconstruction\n'}
+[54.430165] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/ament_index/resource_index/parent_prefix_path/vonns2_reconstruction\n'}
+[54.430896] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/ament_prefix_path.sh\n'}
+[54.431145] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/ament_prefix_path.dsv\n'}
+[54.432194] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/path.sh\n'}
+[54.432538] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/environment/path.dsv\n'}
+[54.433348] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.bash\n'}
+[54.434327] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.sh\n'}
+[54.435110] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.zsh\n'}
+[54.435866] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/local_setup.dsv\n'}
+[54.436799] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.dsv\n'}
+[54.437572] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/ament_index/resource_index/packages/vonns2_reconstruction\n'}
+[54.438258] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/cmake/vonns2_reconstructionConfig.cmake\n'}
+[54.439035] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/cmake/vonns2_reconstructionConfig-version.cmake\n'}
+[54.439738] (vonns2_reconstruction) StdoutLine: {'line': b'-- Installing: /home/nicolas/RAS/install/vonns2_reconstruction/share/vonns2_reconstruction/package.xml\n'}
+[54.447863] (vonns2_reconstruction) CommandEnded: {'returncode': 0}
+[54.448500] (-) TimerEvent: {}
+[54.549450] (-) TimerEvent: {}
+[54.566954] (vonns2_reconstruction) JobEnded: {'identifier': 'vonns2_reconstruction', 'rc': 0}
+[54.567562] (-) EventReactorShutdown: {}

@@ -1,0 +1,2 @@
+my_robot_pkg:urg_node-melodic-devel
+-DCATKIN_DEVEL_PREFIX=/home/er/MAP3D/devel -DCMAKE_INSTALL_PREFIX=/home/er/MAP3D/install -G Unix Makefiles

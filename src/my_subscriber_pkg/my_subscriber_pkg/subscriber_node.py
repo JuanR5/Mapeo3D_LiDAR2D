@@ -52,11 +52,23 @@ class MySubscriber(Node):
             self.joint_states_callback,
             10)
 
-        # Subscription to Point Cloud topic
-        self.point_cloud_subscription = self.create_subscription(
-            PointCloud2,
-            'point_cloud',
-            self.point_cloud_callback,
+        # # Subscription to Point Cloud topic
+        # self.point_cloud_subscription = self.create_subscription(
+        #     PointCloud2,
+        #     'point_cloud',
+        #     self.point_cloud_callback,
+        #     10)
+        
+        self.hokuyoScan_subscription = self.create_subscription(
+            LaserScan,
+            'hokuyo_scan',
+            self.hokuyoScan_callback,
+            100)
+        
+        self.angle_subscription = self.create_subscription(
+            Float32,
+            'motor_angle',
+            self.motor_callback,
             10)
         
         self.odom_subscription  # prevent unused variable warning
@@ -65,7 +77,7 @@ class MySubscriber(Node):
         self.tf_static_subscription
         self.voltage_subscription
         self.joint_states_subscription
-        self.point_cloud_subscription 
+        #self.point_cloud_subscription 
 
     def odom_callback(self, msg):
         # Accessing specific fields of the Odometry message
@@ -84,6 +96,12 @@ class MySubscriber(Node):
         #print("Scan: ", self.scan_ranges)
         #pass
 
+    def hokuyoScan_callback(self, msg):
+        # Process LaserScan message
+        # You can access the data from the LaserScan message here
+        self.hokuyoScan_ranges = msg.ranges
+        leng = len(self.hokuyoScan_ranges)
+
     def tf_callback(self, msg):
         # Process TFMessage
         # for transform in msg.transforms:
@@ -99,16 +117,20 @@ class MySubscriber(Node):
     def voltage_callback(self, msg):
         # Process Voltage message
         self.get_logger().info(f'Voltage: {msg.data}')
+        
+    def motor_callback(self, msg):
+        # Process Voltage message
+        self.get_logger().info(f'Angles: {msg.data}')
 
     def joint_states_callback(self, msg):
         # Process Joint States message
         # self.get_logger().info(f'Joint States: {msg}')
         pass
 
-    def point_cloud_callback(self, msg):
-        # Process Point Cloud message
-        #self.get_logger().info('Processing Point Cloud message')
-        pass
+    # def point_cloud_callback(self, msg):
+    #     # Process Point Cloud message
+    #     #self.get_logger().info('Processing Point Cloud message')
+    #     pass
 
 def main(args=None):
     rclpy.init(args=args)

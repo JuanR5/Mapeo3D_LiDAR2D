@@ -1,0 +1,107 @@
+[0.047s] Invoking command in '/home/nicolas/RAS/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nicolas/RAS/src/vonns2-main/vonns2_gazebo -DCMAKE_INSTALL_PREFIX=/home/nicolas/RAS/install/vonns2_gazebo
+[0.336s] -- The C compiler identification is GNU 11.4.0
+[0.614s] -- The CXX compiler identification is GNU 11.4.0
+[0.652s] -- Detecting C compiler ABI info
+[0.795s] -- Detecting C compiler ABI info - done
+[0.810s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.812s] -- Detecting C compile features
+[0.817s] -- Detecting C compile features - done
+[0.825s] -- Detecting CXX compiler ABI info
+[0.983s] -- Detecting CXX compiler ABI info - done
+[0.998s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.999s] -- Detecting CXX compile features
+[1.000s] -- Detecting CXX compile features - done
+[1.009s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.343s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.550s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[1.552s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.653s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.664s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.685s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.719s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.764s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.924s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.933s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.150s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.209s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.308s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.337s] -- Looking for pthread.h
+[2.500s] -- Looking for pthread.h - found
+[2.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.674s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.677s] -- Found Threads: TRUE  
+[3.077s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.580s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.762s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.764s] -- Added test 'lint_cmake' to check CMake code style
+[3.769s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.773s] -- Added test 'xmllint' to check XML markup files
+[3.776s] -- Configuring done
+[3.784s] -- Generating done
+[3.788s] -- Build files have been written to: /home/nicolas/RAS/build/vonns2_gazebo
+[3.848s] Invoked command in '/home/nicolas/RAS/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nicolas/RAS/src/vonns2-main/vonns2_gazebo -DCMAKE_INSTALL_PREFIX=/home/nicolas/RAS/install/vonns2_gazebo
+[3.850s] Invoking command in '/home/nicolas/RAS/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_gazebo -- -j2 -l2
+[3.979s] Built target ament_cmake_python_copy_scripts
+[4.858s] running egg_info
+[4.859s] creating scripts.egg-info
+[4.860s] writing scripts.egg-info/PKG-INFO
+[4.862s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[4.862s] writing top-level names to scripts.egg-info/top_level.txt
+[4.863s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.868s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[4.870s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[4.925s] Built target ament_cmake_python_build_scripts_egg
+[4.951s] Invoked command in '/home/nicolas/RAS/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_gazebo -- -j2 -l2
+[5.039s] Invoking command in '/home/nicolas/RAS/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_gazebo
+[5.057s] -- Install configuration: ""
+[5.057s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.sh
+[5.057s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.dsv
+[5.057s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[5.058s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[5.058s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[5.059s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[5.059s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[5.059s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts
+[5.059s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/joint_group_position_publisher.py
+[5.059s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/__init__.py
+[5.138s] Listing '/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts'...
+[5.138s] Compiling '/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[5.138s] Compiling '/home/nicolas/RAS/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/joint_group_position_publisher.py'...
+[5.147s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/lib/vonns2_gazebo/joint_group_position_publisher.py
+[5.147s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config
+[5.147s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config/visualization.rviz
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/config/joint_group_position_controller.yaml
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2.urdf.xacro
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2_core.xacro
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/lidar.xacro
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/description/ros2_control.xacro
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch
+[5.148s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/robot_state_publisher.launch.py
+[5.149s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/joint_group_position_controller.launch.py
+[5.149s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/gazebo.launch.py
+[5.149s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/launch/visualization.launch.py
+[5.149s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes
+[5.149s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/servo.STL
+[5.151s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/laser.STL
+[5.151s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/meshes/base_footprint.STL
+[5.157s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds
+[5.157s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds/cubic.sdf
+[5.158s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds/cylinder.sdf
+[5.158s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/worlds/sphere.sdf
+[5.158s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/package_run_dependencies/vonns2_gazebo
+[5.158s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/parent_prefix_path/vonns2_gazebo
+[5.158s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.sh
+[5.159s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.dsv
+[5.159s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.sh
+[5.159s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.dsv
+[5.159s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.bash
+[5.159s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.sh
+[5.160s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.zsh
+[5.160s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.dsv
+[5.160s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv
+[5.160s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/ament_index/resource_index/packages/vonns2_gazebo
+[5.160s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig.cmake
+[5.161s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig-version.cmake
+[5.161s] -- Installing: /home/nicolas/RAS/install/vonns2_gazebo/share/vonns2_gazebo/package.xml
+[5.166s] Invoked command in '/home/nicolas/RAS/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_gazebo

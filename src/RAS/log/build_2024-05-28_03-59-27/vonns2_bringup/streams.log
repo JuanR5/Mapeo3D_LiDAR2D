@@ -1,0 +1,45 @@
+[0.175s] Invoking command in '/home/nicolas/RAS/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_bringup -- -j2 -l2
+[1.012s] [100%] Built target tf_broadcaster
+[1.406s] [100%] Built target ament_cmake_python_copy_scripts
+[4.624s] running egg_info
+[4.638s] writing scripts.egg-info/PKG-INFO
+[4.645s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[4.667s] writing top-level names to scripts.egg-info/top_level.txt
+[4.699s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[4.711s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[5.095s] [100%] Built target ament_cmake_python_build_scripts_egg
+[5.262s] Invoked command in '/home/nicolas/RAS/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nicolas/RAS/build/vonns2_bringup -- -j2 -l2
+[5.928s] Invoking command in '/home/nicolas/RAS/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_bringup
+[6.055s] -- Install configuration: ""
+[6.057s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/lib/vonns2_bringup/tf_broadcaster
+[6.057s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/pythonpath.sh
+[6.057s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/pythonpath.dsv
+[6.058s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info
+[6.058s] -- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.058s] -- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.059s] -- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[6.059s] -- Installing: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[6.065s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts
+[6.065s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/serial_port_reader.py
+[6.066s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/__init__.py
+[6.619s] Listing '/home/nicolas/RAS/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts'...
+[6.721s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/lib/vonns2_bringup/serial_port_reader.py
+[6.721s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/launch
+[6.721s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/launch/robot_state_publisher.launch.py
+[6.722s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/launch/robot.launch.py
+[6.722s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/ament_index/resource_index/package_run_dependencies/vonns2_bringup
+[6.722s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/ament_index/resource_index/parent_prefix_path/vonns2_bringup
+[6.730s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/ament_prefix_path.sh
+[6.731s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/ament_prefix_path.dsv
+[6.731s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/path.sh
+[6.731s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/environment/path.dsv
+[6.731s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.bash
+[6.731s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.sh
+[6.731s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.zsh
+[6.732s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/local_setup.dsv
+[6.732s] -- Installing: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.dsv
+[6.738s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/ament_index/resource_index/packages/vonns2_bringup
+[6.740s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/cmake/vonns2_bringupConfig.cmake
+[6.740s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/cmake/vonns2_bringupConfig-version.cmake
+[6.741s] -- Up-to-date: /home/nicolas/RAS/install/vonns2_bringup/share/vonns2_bringup/package.xml
+[6.767s] Invoked command in '/home/nicolas/RAS/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nicolas/RAS/build/vonns2_bringup

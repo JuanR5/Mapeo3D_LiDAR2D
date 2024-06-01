@@ -1,0 +1,33 @@
+[4.623s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/build --no-deps symlink_data
+[4.981s] running develop
+[5.001s] /home/juan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[5.001s] !!
+[5.001s] 
+[5.001s]         ********************************************************************************
+[5.001s]         Please avoid running ``setup.py`` and ``easy_install``.
+[5.001s]         Instead, use pypa/build, pypa/installer or other
+[5.002s]         standards-based tools.
+[5.002s] 
+[5.002s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[5.002s]         ********************************************************************************
+[5.002s] 
+[5.002s] !!
+[5.002s]   easy_install.initialize_options(self)
+[5.270s] running egg_info
+[5.290s] writing navigation_pkg.egg-info/PKG-INFO
+[5.290s] writing dependency_links to navigation_pkg.egg-info/dependency_links.txt
+[5.291s] writing entry points to navigation_pkg.egg-info/entry_points.txt
+[5.291s] writing requirements to navigation_pkg.egg-info/requires.txt
+[5.291s] writing top-level names to navigation_pkg.egg-info/top_level.txt
+[5.344s] reading manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+[5.345s] writing manifest file 'navigation_pkg.egg-info/SOURCES.txt'
+[5.409s] running build_ext
+[5.409s] Creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/python3.10/site-packages/navigation-pkg.egg-link (link to .)
+[5.410s] Installing nav1 script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/navigation_pkg
+[5.410s] Installing nav2_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/navigation_pkg
+[5.410s] Installing navigation_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/navigation_pkg
+[5.411s] Installing obstacle_node script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/navigation_pkg
+[5.411s] 
+[5.411s] Installed /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg
+[5.411s] running symlink_data
+[5.490s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/build --no-deps symlink_data

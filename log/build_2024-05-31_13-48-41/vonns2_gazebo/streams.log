@@ -1,0 +1,56 @@
+[0.945s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo -- -j12 -l12
+[2.183s] Built target ament_cmake_python_symlink_scripts
+[2.461s] running egg_info
+[2.482s] writing scripts.egg-info/PKG-INFO
+[2.482s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[2.483s] writing top-level names to scripts.egg-info/top_level.txt
+[2.542s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[2.632s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[2.666s] Built target ament_cmake_python_build_scripts_egg
+[2.680s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo -- -j12 -l12
+[2.723s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo
+[2.731s] -- Install configuration: ""
+[2.777s] -- Execute custom install script
+[2.777s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.sh
+[2.777s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/environment/pythonpath.dsv
+[2.778s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[2.778s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.778s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.778s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[2.779s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/__init__.py
+[2.779s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/joint_group_position_publisher.py
+[2.779s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/lib/vonns2_gazebo/joint_group_position_publisher.py
+[2.779s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/config/joint_group_position_controller.yaml
+[2.779s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/config/visualization.rviz
+[2.779s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/description/lidar.xacro
+[2.780s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/description/ros2_control.xacro
+[2.780s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2.urdf.xacro
+[2.780s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/description/vonns2_core.xacro
+[2.780s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/launch/gazebo.launch.py
+[2.780s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/launch/joint_group_position_controller.launch.py
+[2.780s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/launch/robot_state_publisher.launch.py
+[2.781s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/launch/visualization.launch.py
+[2.781s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/meshes/base_footprint.STL
+[2.781s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/meshes/laser.STL
+[2.781s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/meshes/servo.STL
+[2.781s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/worlds/cylinder.sdf
+[2.781s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/worlds/scan
+[2.781s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/worlds/scan_cylinder.sdf
+[2.782s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/ament_index/resource_index/package_run_dependencies/vonns2_gazebo
+[2.782s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/ament_index/resource_index/parent_prefix_path/vonns2_gazebo
+[2.782s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.sh
+[2.782s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/environment/ament_prefix_path.dsv
+[2.782s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.sh
+[2.783s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/environment/path.dsv
+[2.783s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.bash
+[2.783s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.sh
+[2.783s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.zsh
+[2.783s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/local_setup.dsv
+[2.783s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv
+[2.803s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/ament_index/resource_index/packages/vonns2_gazebo
+[2.803s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig.cmake
+[2.803s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/cmake/vonns2_gazeboConfig-version.cmake
+[2.804s] -- Up-to-date symlink: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.xml
+[2.836s] Listing '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts'...
+[2.836s] Compiling '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/local/lib/python3.10/dist-packages/scripts/joint_group_position_publisher.py'...
+[2.843s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo

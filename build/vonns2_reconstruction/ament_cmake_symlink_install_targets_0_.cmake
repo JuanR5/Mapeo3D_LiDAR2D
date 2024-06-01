@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/point_cloud2_assembler" "/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/point_cloud2_converter" "TARGETS" "point_cloud2_assembler" "point_cloud2_converter" "DESTINATION" "lib/vonns2_reconstruction")

@@ -1,0 +1,558 @@
+[0.697s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.697s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7204b086d750>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7204b086d2a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7204b086d2a0>>, mixin_verb=('build',))
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.842s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.843s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.859s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.860s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extensions ['ignore', 'ignore_ament_install']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extension 'ignore'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extension 'ignore_ament_install'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extensions ['colcon_pkg']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extension 'colcon_pkg'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extensions ['colcon_meta']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extension 'colcon_meta'
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extensions ['ros']
+[0.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Project_MAP3D-main) by extension 'ros'
+[0.890s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Project_MAP3D-main' with type 'ros.ament_python' and name 'robot_description'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extensions ['ignore', 'ignore_ament_install']
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'ignore'
+[0.890s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extensions ['colcon_meta']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'ros'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extensions ['cmake', 'python']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'cmake'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'python'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extensions ['python_setup_py']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS) by extension 'python_setup_py'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/build) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/build) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/build) ignored
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/install) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/install) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/install) ignored
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/log) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/log) by extension 'ignore'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/log) ignored
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'ignore'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'ignore_ament_install'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extensions ['colcon_pkg']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'colcon_meta'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extensions ['ros']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'ros'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extensions ['cmake', 'python']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'cmake'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'python'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extensions ['python_setup_py']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/rosbag2_2024_04_26-01_58_00) by extension 'python_setup_py'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extensions ['ignore', 'ignore_ament_install']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'ignore'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'ignore_ament_install'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extensions ['colcon_pkg']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'colcon_pkg'
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extensions ['colcon_meta']
+[0.892s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'colcon_meta'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extensions ['ros']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'ros'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extensions ['cmake', 'python']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'cmake'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'python'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extensions ['python_setup_py']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src) by extension 'python_setup_py'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extensions ['ignore', 'ignore_ament_install']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'ignore'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'ignore_ament_install'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extensions ['colcon_pkg']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'colcon_pkg'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extensions ['colcon_meta']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'colcon_meta'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extensions ['ros']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'ros'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extensions ['cmake', 'python']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'cmake'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'python'
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extensions ['python_setup_py']
+[0.893s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main) by extension 'python_setup_py'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extension 'ignore'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extension 'ignore_ament_install'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extensions ['colcon_pkg']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extension 'colcon_pkg'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extensions ['colcon_meta']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extension 'colcon_meta'
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extensions ['ros']
+[0.894s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_bringup) by extension 'ros'
+[0.905s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RAS/src/vonns2-main/vonns2_bringup' with type 'ros.ament_cmake' and name 'vonns2_bringup'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extension 'ignore'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extension 'ignore_ament_install'
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extensions ['colcon_pkg']
+[0.905s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extension 'colcon_pkg'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extensions ['colcon_meta']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extension 'colcon_meta'
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extensions ['ros']
+[0.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_gazebo) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RAS/src/vonns2-main/vonns2_gazebo' with type 'ros.ament_cmake' and name 'vonns2_gazebo'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extensions ['colcon_pkg']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extension 'colcon_meta'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extensions ['ros']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/RAS/src/vonns2-main/vonns2_reconstruction) by extension 'ros'
+[0.908s] DEBUG:colcon.colcon_core.package_identification:Package 'src/RAS/src/vonns2-main/vonns2_reconstruction' with type 'ros.ament_cmake' and name 'vonns2_reconstruction'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber) by extension 'ros'
+[0.914s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_subscriber' with type 'ros.ament_cmake' and name 'my_subscriber'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extension 'ignore'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_subscriber_pkg) by extension 'ros'
+[0.929s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_subscriber_pkg' with type 'ros.ament_python' and name 'my_subscriber_pkg'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ignore'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ignore_ament_install'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['colcon_pkg']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'colcon_pkg'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['colcon_meta']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'colcon_meta'
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extensions ['ros']
+[0.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation_pkg) by extension 'ros'
+[0.948s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation_pkg' with type 'ros.ament_python' and name 'navigation_pkg'
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.949s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.204s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/juan/ros-humble-ros1-bridge/install
+[1.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 435 installed packages in /opt/ros/humble
+[1.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'cmake_target' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[1.310s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.310s] DEBUG:colcon.colcon_core.verb:Building package 'my_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber', 'merge_install': False, 'path': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber', 'symlink_install': True, 'test_result_base': None}
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_target' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'my_subscriber_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.311s] DEBUG:colcon.colcon_core.verb:Building package 'my_subscriber_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg', 'merge_install': False, 'path': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_target' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.311s] Level 5:colcon.colcon_core.verb:set package 'navigation_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.311s] DEBUG:colcon.colcon_core.verb:Building package 'navigation_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg', 'merge_install': False, 'path': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/navigation_pkg', 'symlink_install': True, 'test_result_base': None}
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.312s] DEBUG:colcon.colcon_core.verb:Building package 'robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description', 'merge_install': False, 'path': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/Project_MAP3D-main', 'symlink_install': True, 'test_result_base': None}
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_target' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.312s] Level 5:colcon.colcon_core.verb:set package 'vonns2_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.312s] DEBUG:colcon.colcon_core.verb:Building package 'vonns2_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup', 'merge_install': False, 'path': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_bringup', 'symlink_install': True, 'test_result_base': None}
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.313s] DEBUG:colcon.colcon_core.verb:Building package 'vonns2_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo', 'merge_install': False, 'path': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_gazebo', 'symlink_install': True, 'test_result_base': None}
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_target' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_clean_cache' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_clean_first' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'cmake_force_configure' from command line to 'False'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'ament_cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'catkin_cmake_args' from command line to 'None'
+[1.313s] Level 5:colcon.colcon_core.verb:set package 'vonns2_reconstruction' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.313s] DEBUG:colcon.colcon_core.verb:Building package 'vonns2_reconstruction' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction', 'merge_install': False, 'path': '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_reconstruction', 'symlink_install': True, 'test_result_base': None}
+[1.313s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.314s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber' with build type 'ament_cmake'
+[1.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber'
+[1.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.329s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.329s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.339s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber_pkg' with build type 'ament_python'
+[1.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_subscriber_pkg', 'ament_prefix_path')
+[1.340s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/ament_prefix_path.ps1'
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/ament_prefix_path.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/ament_prefix_path.sh'
+[1.355s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.363s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/navigation_pkg' with build type 'ament_python'
+[1.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_pkg', 'ament_prefix_path')
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/hook/ament_prefix_path.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/hook/ament_prefix_path.dsv'
+[1.365s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/hook/ament_prefix_path.sh'
+[1.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.373s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/Project_MAP3D-main' with build type 'ament_python'
+[1.373s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'ament_prefix_path')
+[1.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/hook/ament_prefix_path.ps1'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/hook/ament_prefix_path.dsv'
+[1.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/hook/ament_prefix_path.sh'
+[1.376s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.377s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.380s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_bringup' with build type 'ament_cmake'
+[1.380s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_bringup'
+[1.380s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.381s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.384s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_gazebo' with build type 'ament_cmake'
+[1.385s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_gazebo'
+[1.385s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.385s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.389s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_reconstruction' with build type 'ament_cmake'
+[1.389s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_reconstruction'
+[1.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber -- -j12 -l12
+[1.781s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/my_subscriber_pkg'
+[1.781s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.988s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/navigation_pkg'
+[1.988s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.988s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.287s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/Project_MAP3D-main'
+[2.287s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.287s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.323s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup -- -j12 -l12
+[2.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo -- -j12 -l12
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction -- -j12 -l12
+[2.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber -- -j12 -l12
+[2.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber
+[2.480s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_subscriber)
+[2.480s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber
+[2.973s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber' for CMake module files
+[2.974s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber' for CMake config files
+[2.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_subscriber', 'cmake_prefix_path')
+[2.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/hook/cmake_prefix_path.ps1'
+[2.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/hook/cmake_prefix_path.dsv'
+[2.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/hook/cmake_prefix_path.sh'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/bin'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/lib/pkgconfig/my_subscriber.pc'
+[2.978s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/lib/python3.10/site-packages'
+[2.979s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/bin'
+[2.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.ps1'
+[2.981s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.dsv'
+[2.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.sh'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.bash'
+[3.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.zsh'
+[3.146s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/colcon-core/packages/my_subscriber)
+[3.206s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_subscriber)
+[3.206s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber' for CMake module files
+[3.207s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber' for CMake config files
+[3.208s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_subscriber', 'cmake_prefix_path')
+[3.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/hook/cmake_prefix_path.ps1'
+[3.210s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/hook/cmake_prefix_path.dsv'
+[3.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/hook/cmake_prefix_path.sh'
+[3.211s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/bin'
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/lib/pkgconfig/my_subscriber.pc'
+[3.212s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/lib/python3.10/site-packages'
+[3.213s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/bin'
+[3.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.ps1'
+[3.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.dsv'
+[3.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.sh'
+[3.216s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.bash'
+[3.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/my_subscriber/package.zsh'
+[3.218s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber/share/colcon-core/packages/my_subscriber)
+[4.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo -- -j12 -l12
+[4.108s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo
+[4.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction -- -j12 -l12
+[4.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction
+[4.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_gazebo)
+[4.228s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo' for CMake module files
+[4.228s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_gazebo
+[4.229s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo' for CMake config files
+[4.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_gazebo', 'cmake_prefix_path')
+[4.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.ps1'
+[4.230s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.dsv'
+[4.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.sh'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/lib'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/bin'
+[4.230s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/lib/pkgconfig/vonns2_gazebo.pc'
+[4.231s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/lib/python3.10/site-packages'
+[4.231s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/bin'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.ps1'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.sh'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.bash'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.zsh'
+[4.232s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/colcon-core/packages/vonns2_gazebo)
+[4.261s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_gazebo)
+[4.262s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo' for CMake module files
+[4.262s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo' for CMake config files
+[4.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_gazebo', 'cmake_prefix_path')
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.ps1'
+[4.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.dsv'
+[4.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/hook/cmake_prefix_path.sh'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/lib'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/bin'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/lib/pkgconfig/vonns2_gazebo.pc'
+[4.264s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/lib/python3.10/site-packages'
+[4.265s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/bin'
+[4.265s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.ps1'
+[4.266s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.dsv'
+[4.266s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.sh'
+[4.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.bash'
+[4.267s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/vonns2_gazebo/package.zsh'
+[4.267s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_gazebo/share/colcon-core/packages/vonns2_gazebo)
+[4.331s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_reconstruction)
+[4.331s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction' for CMake module files
+[4.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction
+[4.333s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction' for CMake config files
+[4.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_reconstruction', 'cmake_prefix_path')
+[4.333s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.ps1'
+[4.333s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.dsv'
+[4.334s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.sh'
+[4.334s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib'
+[4.334s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/bin'
+[4.334s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib/pkgconfig/vonns2_reconstruction.pc'
+[4.334s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib/python3.10/site-packages'
+[4.335s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/bin'
+[4.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.ps1'
+[4.335s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.dsv'
+[4.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.sh'
+[4.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.bash'
+[4.336s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.zsh'
+[4.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/colcon-core/packages/vonns2_reconstruction)
+[4.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_reconstruction)
+[4.374s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction' for CMake module files
+[4.374s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction' for CMake config files
+[4.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_reconstruction', 'cmake_prefix_path')
+[4.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.ps1'
+[4.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.dsv'
+[4.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/hook/cmake_prefix_path.sh'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/bin'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib/pkgconfig/vonns2_reconstruction.pc'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/lib/python3.10/site-packages'
+[4.376s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/bin'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.ps1'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.dsv'
+[4.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.sh'
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.bash'
+[4.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/vonns2_reconstruction/package.zsh'
+[4.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_reconstruction/share/colcon-core/packages/vonns2_reconstruction)
+[5.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build --no-deps symlink_data
+[5.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/build --no-deps symlink_data
+[5.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/build --no-deps symlink_data
+[6.816s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_subscriber_pkg', 'pythonpath_develop')
+[6.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/share/my_subscriber_pkg/hook/pythonpath_develop.ps1'
+[6.817s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/build --no-deps symlink_data
+[6.817s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/share/my_subscriber_pkg/hook/pythonpath_develop.dsv'
+[6.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber_pkg/share/my_subscriber_pkg/hook/pythonpath_develop.sh'
+[6.819s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg' for CMake module files
+[6.819s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg' for CMake config files
+[6.820s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib'
+[6.820s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/bin'
+[6.820s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/pkgconfig/my_subscriber_pkg.pc'
+[6.820s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/lib/python3.10/site-packages'
+[6.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_subscriber_pkg', 'pythonpath')
+[6.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/pythonpath.ps1'
+[6.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/pythonpath.dsv'
+[6.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/hook/pythonpath.sh'
+[6.822s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/bin'
+[6.822s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_subscriber_pkg)
+[6.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/package.ps1'
+[6.823s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/package.dsv'
+[6.824s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/package.sh'
+[6.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/package.bash'
+[6.825s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/my_subscriber_pkg/package.zsh'
+[6.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg/share/colcon-core/packages/my_subscriber_pkg)
+[6.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath_develop')
+[6.827s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/share/robot_description/hook/pythonpath_develop.ps1'
+[6.828s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/build --no-deps symlink_data
+[6.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/share/robot_description/hook/pythonpath_develop.dsv'
+[6.829s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/share/robot_description/hook/pythonpath_develop.sh'
+[6.829s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description' for CMake module files
+[6.830s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description' for CMake config files
+[6.831s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib'
+[6.831s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/bin'
+[6.831s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/pkgconfig/robot_description.pc'
+[6.831s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages'
+[6.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_description', 'pythonpath')
+[6.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/hook/pythonpath.ps1'
+[6.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/hook/pythonpath.dsv'
+[6.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/hook/pythonpath.sh'
+[6.847s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/bin'
+[6.847s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_description)
+[6.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/package.ps1'
+[6.849s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/package.dsv'
+[6.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/package.sh'
+[6.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/package.bash'
+[6.850s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/robot_description/package.zsh'
+[6.851s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/share/colcon-core/packages/robot_description)
+[6.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_pkg', 'pythonpath_develop')
+[6.852s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/share/navigation_pkg/hook/pythonpath_develop.ps1'
+[6.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/build --no-deps symlink_data
+[6.853s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/share/navigation_pkg/hook/pythonpath_develop.dsv'
+[6.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/navigation_pkg/share/navigation_pkg/hook/pythonpath_develop.sh'
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg' for CMake module files
+[6.854s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg' for CMake config files
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/bin'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/pkgconfig/navigation_pkg.pc'
+[6.855s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/lib/python3.10/site-packages'
+[6.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation_pkg', 'pythonpath')
+[6.855s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/hook/pythonpath.ps1'
+[6.856s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/hook/pythonpath.dsv'
+[6.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/hook/pythonpath.sh'
+[6.857s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/bin'
+[6.857s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation_pkg)
+[6.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/package.ps1'
+[6.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/package.dsv'
+[6.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/package.sh'
+[6.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/package.bash'
+[6.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/navigation_pkg/package.zsh'
+[6.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg/share/colcon-core/packages/navigation_pkg)
+[15.534s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup -- -j12 -l12
+[15.595s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup
+[15.773s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_bringup)
+[15.774s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup' for CMake module files
+[15.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup
+[15.775s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup' for CMake config files
+[15.776s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_bringup', 'cmake_prefix_path')
+[15.776s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.ps1'
+[15.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.dsv'
+[15.777s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.sh'
+[15.779s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib'
+[15.779s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/bin'
+[15.779s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib/pkgconfig/vonns2_bringup.pc'
+[15.779s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib/python3.10/site-packages'
+[15.780s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/bin'
+[15.780s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.ps1'
+[15.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.dsv'
+[15.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.sh'
+[15.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.bash'
+[15.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.zsh'
+[15.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/colcon-core/packages/vonns2_bringup)
+[15.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vonns2_bringup)
+[15.836s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup' for CMake module files
+[15.837s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup' for CMake config files
+[15.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('vonns2_bringup', 'cmake_prefix_path')
+[15.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.ps1'
+[15.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.dsv'
+[15.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/hook/cmake_prefix_path.sh'
+[15.838s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib'
+[15.838s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/bin'
+[15.839s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib/pkgconfig/vonns2_bringup.pc'
+[15.839s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib/python3.10/site-packages'
+[15.839s] Level 1:colcon.colcon_core.environment:checking '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/bin'
+[15.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.ps1'
+[15.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.dsv'
+[15.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.sh'
+[15.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.bash'
+[15.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.zsh'
+[15.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/colcon-core/packages/vonns2_bringup)
+[15.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.841s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.841s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.990s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.990s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.027s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.027s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/local_setup.ps1'
+[16.063s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/_local_setup_util_ps1.py'
+[16.101s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/setup.ps1'
+[16.102s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/local_setup.sh'
+[16.111s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/_local_setup_util_sh.py'
+[16.112s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/setup.sh'
+[16.113s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/local_setup.bash'
+[16.132s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/setup.bash'
+[16.134s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/local_setup.zsh'
+[16.163s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/setup.zsh'

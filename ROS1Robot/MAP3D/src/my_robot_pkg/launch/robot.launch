@@ -1,0 +1,13 @@
+<launch>
+
+  <!-- Include the launch file from package_a -->
+  <include file="$(env HOME)/MAP3D/src/urg_node-melodic-devel/launch/urg_lidar.launch" />
+
+  <!-- Launch a node from package_b -->
+  <node pkg="my_robot_pkg" type="arduino_node.py" name="arduino_node" output="screen" />
+  
+   <!-- Include another launch file from a different workspace -->
+  <include file="$(env HOME)/myagv_ros/src/myagv_odometry/launch/myagv_active.launch" />
+
+</launch>
+

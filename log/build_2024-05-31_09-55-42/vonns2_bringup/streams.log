@@ -1,0 +1,98 @@
+[1.441s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup
+[4.397s] -- The C compiler identification is GNU 11.4.0
+[5.522s] -- The CXX compiler identification is GNU 11.4.0
+[5.621s] -- Detecting C compiler ABI info
+[5.893s] -- Detecting C compiler ABI info - done
+[5.909s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.909s] -- Detecting C compile features
+[5.940s] -- Detecting C compile features - done
+[5.955s] -- Detecting CXX compiler ABI info
+[6.319s] -- Detecting CXX compiler ABI info - done
+[6.335s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.336s] -- Detecting CXX compile features
+[6.337s] -- Detecting CXX compile features - done
+[6.480s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.283s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.451s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.930s] -- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)
+[8.961s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[9.578s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[9.629s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.666s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.337s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.392s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.001s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.095s] -- Found FastRTPS: /opt/ros/humble/include  
+[11.189s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[11.327s] -- Looking for pthread.h
+[11.466s] -- Looking for pthread.h - found
+[11.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.597s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.599s] -- Found Threads: TRUE  
+[12.118s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[12.978s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.601s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.601s] -- Configured cppcheck include dirs: 
+[13.602s] -- Configured cppcheck exclude dirs and/or files: 
+[13.603s] -- Added test 'flake8' to check Python code syntax and style conventions
+[13.605s] -- Added test 'lint_cmake' to check CMake code style
+[13.607s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[13.611s] -- Added test 'uncrustify' to check C / C++ code style
+[13.611s] -- Configured uncrustify additional arguments: 
+[13.612s] -- Added test 'xmllint' to check XML markup files
+[13.697s] -- Configuring done
+[13.728s] -- Generating done
+[13.733s] -- Build files have been written to: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup
+[13.767s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup
+[13.772s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup -- -j12 -l12
+[13.872s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_broadcaster.dir/src/tf_broadcaster.cpp.o[0m
+[13.898s] [ 50%] Built target ament_cmake_python_symlink_scripts
+[14.256s] running egg_info
+[14.257s] creating scripts.egg-info
+[14.289s] writing scripts.egg-info/PKG-INFO
+[14.289s] writing dependency_links to scripts.egg-info/dependency_links.txt
+[14.290s] writing top-level names to scripts.egg-info/top_level.txt
+[14.290s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[14.381s] reading manifest file 'scripts.egg-info/SOURCES.txt'
+[14.382s] writing manifest file 'scripts.egg-info/SOURCES.txt'
+[14.439s] [ 50%] Built target ament_cmake_python_build_scripts_egg
+[25.917s] [100%] [32m[1mLinking CXX executable tf_broadcaster[0m
+[27.858s] [100%] Built target tf_broadcaster
+[27.889s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --build /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup -- -j12 -l12
+[27.962s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup
+[27.981s] -- Install configuration: ""
+[27.982s] -- Execute custom install script
+[27.983s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib/vonns2_bringup/tf_broadcaster
+[28.008s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/environment/pythonpath.sh
+[28.028s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/environment/pythonpath.dsv
+[28.052s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/PKG-INFO
+[28.076s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/SOURCES.txt
+[28.099s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/dependency_links.txt
+[28.122s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts-0.0.0-py3.10.egg-info/top_level.txt
+[28.146s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/__init__.py
+[28.165s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/serial_port_reader.py
+[28.186s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/lib/vonns2_bringup/serial_port_reader.py
+[28.205s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/launch/robot.launch.py
+[28.224s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/launch/robot_state_publisher.launch.py
+[28.244s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/config/laser.rviz
+[28.255s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/ament_index/resource_index/package_run_dependencies/vonns2_bringup
+[28.266s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/ament_index/resource_index/parent_prefix_path/vonns2_bringup
+[28.276s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/environment/ament_prefix_path.sh
+[28.288s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/environment/ament_prefix_path.dsv
+[28.300s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/environment/path.sh
+[28.311s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/environment/path.dsv
+[28.333s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/local_setup.bash
+[28.345s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/local_setup.sh
+[28.357s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/local_setup.zsh
+[28.379s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/local_setup.dsv
+[28.391s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.dsv
+[28.416s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/ament_index/resource_index/packages/vonns2_bringup
+[28.440s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/cmake/vonns2_bringupConfig.cmake
+[28.463s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/cmake/vonns2_bringupConfig-version.cmake
+[28.487s] -- Symlinking: /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/share/vonns2_bringup/package.xml
+[28.570s] Listing '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts'...
+[28.570s] Compiling '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/__init__.py'...
+[28.570s] Compiling '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/vonns2_bringup/local/lib/python3.10/dist-packages/scripts/serial_port_reader.py'...
+[28.579s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/navigation_pkg:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/my_subscriber_pkg:/opt/ros/humble /usr/bin/cmake --install /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_bringup

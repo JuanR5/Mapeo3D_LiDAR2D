@@ -1,0 +1,13 @@
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/uninstall.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/vonns2_reconstruction_uninstall.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/point_cloud2_assembler.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/point_cloud2_converter.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/ament_cmake_python_symlink_scripts.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/ament_cmake_python_build_scripts_egg.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/test.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/edit_cache.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/rebuild_cache.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/list_install_components.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/install.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/install/local.dir
+/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/vonns2_reconstruction/CMakeFiles/install/strip.dir

@@ -1,0 +1,30 @@
+[5.599s] Invoking command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/build --no-deps symlink_data
+[6.202s] running develop
+[6.210s] /home/juan/.local/lib/python3.10/site-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[6.210s] !!
+[6.210s] 
+[6.211s]         ********************************************************************************
+[6.211s]         Please avoid running ``setup.py`` and ``easy_install``.
+[6.211s]         Instead, use pypa/build, pypa/installer or other
+[6.211s]         standards-based tools.
+[6.211s] 
+[6.212s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[6.212s]         ********************************************************************************
+[6.212s] 
+[6.212s] !!
+[6.212s]   easy_install.initialize_options(self)
+[6.698s] running egg_info
+[6.731s] writing robot_description.egg-info/PKG-INFO
+[6.805s] writing dependency_links to robot_description.egg-info/dependency_links.txt
+[6.807s] writing entry points to robot_description.egg-info/entry_points.txt
+[6.809s] writing requirements to robot_description.egg-info/requires.txt
+[6.922s] writing top-level names to robot_description.egg-info/top_level.txt
+[7.108s] reading manifest file 'robot_description.egg-info/SOURCES.txt'
+[7.274s] writing manifest file 'robot_description.egg-info/SOURCES.txt'
+[7.308s] running build_ext
+[7.308s] Creating /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages/robot-description.egg-link (link to .)
+[7.309s] Installing move_joint script to /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/robot_description
+[7.309s] 
+[7.310s] Installed /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description
+[7.310s] running symlink_data
+[7.385s] Invoked command in '/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description' returned '0': PYTHONPATH=/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/prefix_override:/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/install/robot_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/robot_description/build --no-deps symlink_data
