@@ -1,0 +1,5 @@
+En esta carpeta se encuentran los codigos que deben correr nativo en el robot.
+Estos codigos son los que se encargan de interactuar con los sensores adicionales (LIDAR Hokuyo) y el arduino externo que controla el motor paso a paso.
+Se crean los nodos para comunicación serial con el arduino, la subscripción al topic del Hokuyo, y se testea la logica de evasión de obstaculos.
+
+Adicionalmente se encuentra el workspace para usar el Hokuyo en Noetic

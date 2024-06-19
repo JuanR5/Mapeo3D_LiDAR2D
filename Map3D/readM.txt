@@ -1,0 +1,6 @@
+#Se encuentra en desarrollo.
+
+Este el workspace que se corre nativo en el pc.
+Contiene una GUI que aun no se encuentra enlazada a los nodos funcionales.
+Tiene los subscriptores generales a todos los topics necesarios y de teleoperación (varias pruebas). Tiene los codigo de navegación y evasión de obstaculos.
+Tambien tiene la carpeta para la adquisión de datos del lidar, y la concatenación de nube de puntos

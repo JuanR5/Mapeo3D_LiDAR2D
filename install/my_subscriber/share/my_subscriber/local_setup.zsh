@@ -1,1 +1,0 @@
-/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/build/my_subscriber/ament_cmake_environment_hooks/local_setup.zsh

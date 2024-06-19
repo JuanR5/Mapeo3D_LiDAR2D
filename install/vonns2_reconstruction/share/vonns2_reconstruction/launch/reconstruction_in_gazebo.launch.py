@@ -1,1 +1,0 @@
-/home/juan/Robotics/Proyecto/Mapeo3D_LiDAR2D/src/RAS/src/vonns2-main/vonns2_reconstruction/launch/reconstruction_in_gazebo.launch.py
